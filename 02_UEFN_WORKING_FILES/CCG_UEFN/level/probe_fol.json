@@ -1,0 +1,156 @@
+{
+ "palms": [
+  "/Game/Items/Art_noLOD/Meshes/SM_WholeCoconut",
+  "/Game/Environments/Props/Trees/Meshes/SM_PalmTree_C_ImposterMesh",
+  "/Game/Environments/Props/Trees/Meshes/SM_PalmTree_C",
+  "/Game/Environments/Props/Trees/Meshes/SM_PalmTree_B_ImposterMesh",
+  "/Game/Environments/Props/Trees/Meshes/SM_PalmTree_B",
+  "/Game/Environments/Props/Trees/Meshes/SM_PalmTree_A_ImposterMesh",
+  "/Game/Environments/Props/Trees/Meshes/SM_PalmTree_A",
+  "/Game/Environments/Props/Trees/Meshes/palm_tree_06c",
+  "/Game/Environments/Props/Trees/Meshes/palm_tree_06b",
+  "/Game/Environments/Props/Trees/Meshes/palm_tree_06a",
+  "/Game/Environments/Props/Trees/Meshes/palm_tree_06",
+  "/Game/Environments/Props/Palms/Meshes/S_Palms_Resort_Sign",
+  "/Game/Environments/Props/Foliage/Meshes/Foliage_PalmBush2",
+  "/Game/Environments/Hera/FX/Meshes/SM_Fish_Tropical_03",
+  "/Game/Environments/Hera/FX/Meshes/SM_Fish_Tropical_02",
+  "/Game/Environments/Hera/FX/Meshes/SM_Fish_Tropical_01",
+  "/Game/Environments/Helios/Foliage/Trees/DesertPalm_B/Meshes/ShadowProxy/SM_Helios_DesertPalm_B_ShadowProxy",
+  "/Game/Environments/Helios/Foliage/Trees/DesertPalm_B/BakeData/SM_Helios_DesertPalm_B_bake",
+  "/Game/Environments/Helios/Foliage/Trees/DesertPalm_A/Meshes/ShadowProxy/SM_Helios_DesertPalm_A_ShadowProxy",
+  "/Game/Environments/Helios/Foliage/Trees/DesertPalm_A/BakeData/SM_Helios_DesertPalm_A_bake",
+  "/Game/Environments/Helios/Foliage/Plants/PygmyPalm_B/Meshes/SM_Helios_PygmyPalm_B",
+  "/Game/Environments/Helios/Foliage/Plants/PygmyPalm_A/Meshes/SM_Helios_PygmyPalm_A",
+  "/Game/Environments/Asteria/Foliage/Trees/PalmTree/Meshes/ShadowProxy/SM_JunglePalm_02_ShadowProxy",
+  "/Game/Environments/Asteria/Foliage/Trees/PalmTree/Meshes/ShadowProxy/SM_JunglePalm_01_ShadowProxy",
+  "/Game/Environments/Asteria/Foliage/Trees/PalmTree/BakeData/SM_Asteria_PalmTree_02_Bake",
+  "/Game/Environments/Asteria/Foliage/Trees/PalmTree/BakeData/SM_Asteria_PalmTree_01_Bake",
+  "/Game/Environments/Asteria/Foliage/Trees/Palm/Meshes/PalmTree2_ShadowProxy_Combined",
+  "/Game/Environments/Asteria/Foliage/Trees/Palm/Meshes/PalmTree2_Bleaf_ShadowProxy_Combined",
+  "/Game/Environments/Asteria/Foliage/Trees/Palm/Meshes/PalmTree1_ShadowProxy_Combined",
+  "/Game/Environments/Asteria/Foliage/Trees/Palm/Meshes/PalmTree1_Bleaf_ShadowProxy_Combined",
+  "/Game/Environments/Asteria/Foliage/Trees/Palm/BakeData/SM_Palm2_Bleaf_Bake",
+  "/Game/Environments/Asteria/Foliage/Trees/Palm/BakeData/SM_Palm2_Bake",
+  "/Game/Environments/Asteria/Foliage/Trees/Palm/BakeData/SM_Palm1_BLeaf_Bake",
+  "/Game/Environments/Asteria/Foliage/Trees/Palm/BakeData/SM_Palm1_Bake",
+  "/Game/Environments/Asteria/Foliage/JunglePlants/BananaPalmPlants/Meshes/SM_JunglePlants_BananaPalmPlant_A",
+  "/Game/Environments/Asteria/Foliage/Grass/MeshesFinal/Small_plants/SM_TropicalAccentPlant1Packed",
+  "/Game/Environments/Asteria/Foliage/Grass/MeshesFinal/Small_plants/SM_TropicalAccentPlant1",
+  "/Game/Environments/Asteria/Foliage/Grass/MeshesFinal/Grass/SM_TropicGrassTallAccent",
+  "/Game/Environments/Asteria/Foliage/Grass/MeshesFinal/Grass/SM_TropicGrass2",
+  "/Game/Environments/Asteria/Foliage/Grass/MeshesFinal/Grass/SM_TropicGrass",
+  "/Game/Environments/Asteria/Foliage/ChaparralPlants/EuFanPalm/Meshes/SM_Helios_ChapPlant_EuFanPalm_Fallback",
+  "/Game/Environments/Artemis/Sets/Seven/Village/Props/Meshes/SM_Seven_TropicalPlantGroup_02",
+  "/Game/Environments/Artemis/Sets/Seven/Village/Props/Meshes/SM_Seven_TropicalPlantGroup_01",
+  "/Game/Environments/Artemis/Props/Outdoor/Outdoor_InflatablePalm_B/Meshes/SM_Outdoor_InflatablePalm_B",
+  "/Game/Environments/Artemis/Props/Outdoor/Outdoor_InflatablePalm_A/Meshes/SM_Outdoor_InflatablePalm_A",
+  "/Game/Environments/Arid/Props/Gas_Station/Meshes/gas_station_palm_cutout_01",
+  "/Game/Environments/Apollo/Sets/IceHotel/Meshes/SM_PalmTree_ICE_B",
+  "/Game/Environments/Apollo/Sets/IceHotel/Meshes/SM_PalmTree_Ice_A",
+  "/Game/Environments/Apollo/Foliage/Desert/Meshes/SM_Desert_Palm_04",
+  "/Game/Environments/Apollo/Foliage/Desert/Meshes/SM_Desert_Palm_03",
+  "/Game/Environments/Apollo/Foliage/Desert/Meshes/SM_Desert_Palm_02",
+  "/Game/Environments/Apollo/Foliage/Desert/Meshes/SM_Desert_Palm_01",
+  "/Game/Effects/Fort_Effects/World/Destruction/Destruction2/Trees/Tree_06c_PalmFrond",
+  "/Game/Effects/Fort_Effects/World/Destruction/Destruction2/Trees/FX_PalmTrees_BananaLeafC",
+  "/Game/Effects/Fort_Effects/World/Destruction/Destruction2/Trees/FX_PalmTrees_BananaLeafB",
+  "/Game/Effects/Fort_Effects/World/Destruction/Destruction2/Trees/FX_PalmTrees_BananaLeafA",
+  "/Game/Effects/Fort_Effects/World/Destruction/Destruction2/Trees/FX_PalmTrees2_PalmLeafC",
+  "/Game/Effects/Fort_Effects/World/Destruction/Destruction2/Trees/FX_PalmTrees2_PalmLeafB",
+  "/Game/Effects/Fort_Effects/World/Destruction/Destruction2/Trees/FX_PalmTrees2_PalmLeafA",
+  "/Game/Effects/Fort_Effects/World/Destruction/Destruction2/Trees/FX_DesertPalm_UnderBrush_B",
+  "/Game/Effects/Fort_Effects/World/Destruction/Destruction2/Trees/FX_DesertPalm_UnderBrush_A"
+ ],
+ "water": [
+  [
+   "WaterBodyOcean",
+   true
+  ],
+  [
+   "WaterBodyLake",
+   true
+  ],
+  [
+   "WaterBodyCustom",
+   true
+  ],
+  [
+   "WaterZone",
+   true
+  ],
+  [
+   "ExponentialHeightFog",
+   true
+  ],
+  [
+   "SkyAtmosphere",
+   true
+  ],
+  [
+   "DirectionalLight",
+   true
+  ],
+  [
+   "SkyLight",
+   true
+  ],
+  [
+   "VolumetricCloud",
+   true
+  ],
+  [
+   "InstancedFoliageActor",
+   true
+  ],
+  [
+   "LevelSequenceActor",
+   true
+  ],
+  [
+   "PostProcessVolume",
+   true
+  ]
+ ],
+ "expr": {
+  "MaterialExpressionParallaxOcclusionMapping": false,
+  "MaterialExpressionBumpOffset": true,
+  "MaterialExpressionQualitySwitch": true,
+  "MaterialExpressionVertexColor": true,
+  "MaterialExpressionWorldPosition": true,
+  "MaterialExpressionFresnel": true,
+  "MaterialExpressionPanner": true,
+  "MaterialExpressionTime": true,
+  "MaterialExpressionSine": true
+ },
+ "seq": {
+  "LevelSequence": true,
+  "LevelSequenceFactoryNew": true,
+  "MovieSceneSequenceExtensions": true,
+  "LevelSequenceEditorBlueprintLibrary": true,
+  "MovieSceneBindingExtensions": true,
+  "MovieSceneTrackExtensions": true,
+  "MovieSceneSectionExtensions": true,
+  "MovieSceneScriptingChannel": true
+ },
+ "heights": [
+  "T_Wood_Deck_H",
+  "T_WallPaint_H",
+  "T_Stucco_White_H",
+  "T_Steel_Rail_H",
+  "T_Sand_Cabarete_H",
+  "T_Roof_Corrugated_H",
+  "T_Pavers_Adoquin_H",
+  "T_Fur_Detail_H",
+  "T_Concrete_Park_H",
+  "T_Asphalt_Hwy5_H"
+ ],
+ "err": [],
+ "level_palms": {
+  "L_Palm": 29,
+  "L_Palm_P1": 2,
+  "L_Sig": 1,
+  "L_Palm_P3": 2,
+  "L_Palm_P4": 2
+ }
+}

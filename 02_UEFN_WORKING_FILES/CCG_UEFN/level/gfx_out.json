@@ -1,0 +1,54 @@
+{
+ "dayseq": {
+  "FD_DaySeq_Day": 44,
+  "FD_DaySeq_Day_phase": "<EnabledOnPhase.ALWAYS: 1>",
+  "FD_DaySeq_Sunset": 46,
+  "FD_DaySeq_Sunset_phase": "<EnabledOnPhase.NONE: 0>"
+ },
+ "ppv": 22,
+ "nanite": {
+  "dir": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Level/Meshes",
+  "total": 47,
+  "enabled_now": 47
+ },
+ "road": 0,
+ "decals": 23,
+ "lumen": 0,
+ "errors": [
+  [
+   "lumen",
+   "MinBrightness",
+   "FortScalabilityBuildingProp: Failed to find property 'MinBrightness' for attribute 'MinBri"
+  ],
+  [
+   "lumen",
+   "MaxBrightness",
+   "FortScalabilityBuildingProp: Failed to find property 'MaxBrightness' for attribute 'MaxBri"
+  ],
+  [
+   "lumen",
+   "HistogramLogMin",
+   "FortScalabilityBuildingProp: Failed to find property 'HistogramLogMin' for attribute 'Hist"
+  ],
+  [
+   "lumen",
+   "HistogramLogMax",
+   "FortScalabilityBuildingProp: Failed to find property 'HistogramLogMax' for attribute 'Hist"
+  ],
+  [
+   "lumen",
+   "SpeedUp",
+   "FortScalabilityBuildingProp: Failed to find property 'SpeedUp' for attribute 'SpeedUp' on "
+  ],
+  [
+   "lumen",
+   "SpeedDown",
+   "FortScalabilityBuildingProp: Failed to find property 'SpeedDown' for attribute 'SpeedDown'"
+  ],
+  [
+   "lumen",
+   "ExposureCompensation",
+   "FortScalabilityBuildingProp: Failed to find property 'ExposureCompensation' for attribute "
+  ]
+ ]
+}

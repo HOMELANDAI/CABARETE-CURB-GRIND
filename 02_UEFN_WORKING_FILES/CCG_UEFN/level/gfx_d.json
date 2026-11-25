@@ -1,0 +1,78 @@
+{
+ "mpc": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Materials/MPC_CCG",
+ "road": {
+  "rewired": 0,
+  "expressions": 33,
+  "mi": "WetnessMax 0.35"
+ },
+ "env": {
+  "gate": "already present"
+ },
+ "signs": [
+  [
+   "MI_Sign_Billboard_HAI_People",
+   "lit",
+   3.0
+  ],
+  [
+   "MI_Sign_Billboard_HAI_Skate",
+   "lit",
+   3.0
+  ],
+  [
+   "MI_Sign_Billboard_HAI_Frequency",
+   "lit",
+   3.0
+  ],
+  [
+   "MI_Sign_Billboard_PPA_Microdrama",
+   "lit",
+   3.0
+  ],
+  [
+   "MI_Sign_Billboard_HomelandAI",
+   "lit",
+   3.0
+  ],
+  [
+   "MI_Sign_Billboard_XPets",
+   "lit",
+   3.0
+  ],
+  [
+   "MI_Sign_Mojito_Bar",
+   "neon",
+   3.0
+  ],
+  [
+   "MI_Sign_Full_Moon",
+   "neon",
+   3.0
+  ],
+  [
+   "MI_Sign_HAI_Skate_Neon",
+   "neon",
+   3.0
+  ],
+  [
+   "MI_Sign_OJO_Club",
+   "neon",
+   3.0
+  ],
+  [
+   "MI_Sign_Olivias",
+   "neon",
+   3.0
+  ]
+ ],
+ "seq": {
+  "channels": {
+   "Wetness": 2,
+   "SunsetGlow": 2,
+   "NeonOn": 3
+  },
+  "tracks": 1
+ },
+ "err": [],
+ "warn": []
+}

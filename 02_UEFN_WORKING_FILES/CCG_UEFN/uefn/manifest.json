@@ -1,0 +1,507 @@
+{
+ "package": "CabareteCurbGrind_UEFN",
+ "game": "Cabarete Curb Grind",
+ "studio": "HomelandAI (HAI)",
+ "dataVersion": "0.1.0",
+ "sourceOfTruth": "platforms/shared/ccg_data.json",
+ "engine": "Unreal Editor for Fortnite (UEFN), Verse 1.0",
+ "units": {
+  "unrealUnit": "1 uu = 1 cm",
+  "worldScale": 0.6,
+  "designMeterToUu": 60
+ },
+ "coordinateFrame": "Data: +X east, +Z south, +Y up, origin = Cabarete Sign. UE: (X, Y, Z) = (x_east, z_south, y_up) * 0.6 * 100.",
+ "verse": [
+  {
+   "file": "Verse/ccg_trick_scoring.verse",
+   "provides": [
+    "ccg_scoring module (constants)",
+    "combo_tracker class",
+    "ScoreTrick(name)",
+    "ScoreGrind(meters)",
+    "ScoreSlide",
+    "ScoreManual"
+   ]
+  },
+  {
+   "file": "Verse/ccg_game_manager.verse",
+   "provides": [
+    "ccg_game_manager creative_device",
+    "ccg_player_state",
+    "park zones P1..P4",
+    "store volume",
+    "sign gap volume",
+    "Vagamundo barrier gating",
+    "HUD",
+    "finish + end_game",
+    "lifetime-points loop (25k) + earned-tier Store.GrantEarned calls",
+    "mural volumes x6 -> murals seen x/6 in the results",
+    "AwardHorseshoe (80/m, +2,500 full U) + TunnelVolumes (+200)"
+   ]
+  },
+  {
+   "file": "Verse/ccg_store.verse",
+   "provides": [
+    "ccg_store creative_device",
+    "generated 94-row tiered catalog (free / purchase / earned) from ccg_data.store",
+    "23 button/granter pairs for the priced rows",
+    "GrantFree on join, GrantEarned(Agent, Key) from ccg_game_manager",
+    "spends score via ccg_game_manager.TrySpend",
+    "effects (fx_sparks) owned via grind:50, ToggleEffect / IsEffectActive"
+   ]
+  },
+  {
+   "file": "Verse/ccg_rail.verse",
+   "provides": [
+    "ccg_rail creative_device",
+    "teleport-along-marker-chain grind (chosen over cinematic_sequence_device)",
+    "AwardGrind to manager",
+    "Metal Sparks vfx_spawner_device (fx_sparks, steel rails)",
+    "IsHorseshoe -> Manager.AwardHorseshoe (P4 Horseshoe Rail Skate Ramp bonus)"
+   ]
+  },
+  {
+   "file": "Verse/ccg_rider_select.verse",
+   "provides": [
+    "ccg_rider_select creative_device",
+    "7 class slots",
+    "rider table with women's model numbers",
+    "stat multipliers"
+   ]
+  },
+  {
+   "file": "Verse/ccg_timeofday.verse",
+   "provides": [
+    "ccg_timeofday creative_device",
+    "day / sunset swap via two day_sequence_devices",
+    "park floodlights, street lamps, mural wash lights, neon props",
+    "ModeChangedEvent"
+   ]
+  },
+  "ccg_graphics.verse — graphics director: cinematic grade sequence, wet road, heat haze, pooled spark lights, mural flicker, quality tier"
+ ],
+ "docs": [
+  "LEVEL_BUILD_GUIDE.md",
+  "UEFN_GRAPHICS.md",
+  "reference/horseshoe_rail_blueprint.png",
+  "reference/shot_list_extras.txt",
+  "reference/shot_list_original.txt",
+  "reference/shot_list_screenshots.txt"
+ ],
+ "referenceImagery": {
+  "folder": "/home/claude/ccg/in/shots_all/",
+  "sets": {
+   "set1_original": {
+    "files": 18,
+    "shotList": "reference/shot_list_original.txt",
+    "note": "first capture — superseded by set 2 (same imagery; parks were 14–18, no street shots 14/15)"
+   },
+   "set2_screenshots": {
+    "files": 20,
+    "shotList": "reference/shot_list_screenshots.txt",
+    "note": "aerials 01–06, street 07–15 along the yellow path, park close-ups 16–20"
+   },
+   "set3_extras": {
+    "files": 43,
+    "shotList": "reference/shot_list_extras.txt",
+    "note": "route strips every ~290 m (01–07), forward/back street views every ~250 m (08–24), each park from four sides + two photo spheres (25–42), path stats (43)"
+   }
+  },
+  "totalFiles": 81,
+  "waypointShotCodes": "plain number = set2_screenshots, x prefix = set3_extras",
+  "license": "Google imagery + photo-sphere contributors — reference only, never ship inside the island"
+ },
+ "riders": [
+  {
+   "id": "kefla",
+   "name": "Kefla",
+   "kind": "dog",
+   "slot": 0,
+   "stance": "regular",
+   "stats": {
+    "speed": 7,
+    "balance": 8,
+    "air": 6,
+    "flip": 5
+   },
+   "meshSource": "/home/claude/ccg/in/kefla/tripo_convert_a0aa1032-70df-499a-990f-8f0f70bd4a07.obj",
+   "meshSourceBytes": 93255745,
+   "sourceTriangles": 1929588,
+   "sourceHasUVs": false,
+   "decimatedPreview": "/home/claude/ccg/assets/riders/kefla_web.glb (14 965 tris) and kefla_mid.glb (79 944 tris), no UVs",
+   "meshFbx": "assets/riders/Kefla/SK_Kefla.fbx",
+   "rig": {
+    "type": "rigify-deform",
+    "bones": 33,
+    "height_m": 1.1,
+    "forward": "-Y (Blender) / -Z (glTF)",
+    "clips": [
+     "CCG_Stance",
+     "CCG_Idle",
+     "CCG_Crouch",
+     "CCG_Pop",
+     "CCG_Push",
+     "CCG_Grind"
+    ],
+    "vertexColors": false,
+    "tris": 40000,
+    "stance": "regular; mirror for goofy",
+    "uv": "UVMap (baked)"
+   },
+   "meshNote": "Rigged + animated FBX (40k tris, baked PBR textures, UV set, 33-bone Rigify deform skeleton, six CCG_* clips). UEFN imports FBX skeletal meshes for props / NPC (NPC Spawner character) only — players cannot wear it. Legacy Tripo OBJ kept under meshSource for re-running rig_rider.py. Max tier: the three-section hero FBX with three 2K sheets (UEFN cooks textures to 2048² max, so the split is how the face gets a full sheet).",
+   "textures": {
+    "baseColor": "assets/riders/Kefla/T_Kefla_BC.png (2048, sRGB)",
+    "normal": "assets/riders/Kefla/T_Kefla_N.png (2048, tangent, OpenGL +Y -> Flip Green)",
+    "orm": "assets/riders/Kefla/T_Kefla_ORM.png (2048: R=AO G=rough B=metal)",
+    "masters": "../shared/riders/tex/ (4K)"
+   },
+   "meshFbxHero": "assets/riders/Kefla/SK_Kefla_UEFN.fbx (3 material slots: M_Kefla_Head / _Upper / _Lower)",
+   "texturesHero": {
+    "Head": {
+     "BC": "assets/riders/Kefla/T_Kefla_Head_BC.png",
+     "N": "assets/riders/Kefla/T_Kefla_Head_N.png (DirectX)",
+     "ORM": "assets/riders/Kefla/T_Kefla_Head_ORM.png",
+     "SMR": "assets/riders/Kefla/T_Kefla_Head_SMR.png (R spec G metal B rough — Fortnite master packing)",
+     "Mask": "assets/riders/Kefla/T_Kefla_Head_Mask.png (R eyes, G nose, B curvature)"
+    },
+    "Upper": {
+     "BC": "assets/riders/Kefla/T_Kefla_Upper_BC.png",
+     "N": "assets/riders/Kefla/T_Kefla_Upper_N.png (DirectX)",
+     "ORM": "assets/riders/Kefla/T_Kefla_Upper_ORM.png",
+     "SMR": "assets/riders/Kefla/T_Kefla_Upper_SMR.png (R spec G metal B rough — Fortnite master packing)",
+     "Mask": "assets/riders/Kefla/T_Kefla_Upper_Mask.png (R eyes, G nose, B curvature)"
+    },
+    "Lower": {
+     "BC": "assets/riders/Kefla/T_Kefla_Lower_BC.png",
+     "N": "assets/riders/Kefla/T_Kefla_Lower_N.png (DirectX)",
+     "ORM": "assets/riders/Kefla/T_Kefla_Lower_ORM.png",
+     "SMR": "assets/riders/Kefla/T_Kefla_Lower_SMR.png (R spec G metal B rough — Fortnite master packing)",
+     "Mask": "assets/riders/Kefla/T_Kefla_Lower_Mask.png (R eyes, G nose, B curvature)"
+    }
+   }
+  },
+  {
+   "id": "koda",
+   "name": "Koda the Husky",
+   "kind": "dog",
+   "slot": 1,
+   "stance": "goofy",
+   "stats": {
+    "speed": 9,
+    "balance": 6,
+    "air": 7,
+    "flip": 5
+   },
+   "meshSource": "/home/claude/ccg/in/koda/tripo_convert_eb57a80a-b730-46bd-85de-e878915de6ec.obj",
+   "meshSourceBytes": 94025653,
+   "sourceTriangles": 1947362,
+   "sourceHasUVs": false,
+   "decimatedPreview": "/home/claude/ccg/assets/riders/koda_web.glb and koda_mid.glb, no UVs",
+   "meshFbx": "assets/riders/Koda/SK_Koda.fbx",
+   "rig": {
+    "type": "rigify-deform",
+    "bones": 33,
+    "height_m": 1.1,
+    "forward": "-Y (Blender) / -Z (glTF)",
+    "clips": [
+     "CCG_Stance",
+     "CCG_Idle",
+     "CCG_Crouch",
+     "CCG_Pop",
+     "CCG_Push",
+     "CCG_Grind"
+    ],
+    "vertexColors": false,
+    "tris": 40000,
+    "stance": "regular; mirror for goofy",
+    "uv": "UVMap (baked)"
+   },
+   "meshNote": "Rigged + animated FBX (40k tris, baked PBR textures, UV set, 33-bone Rigify deform skeleton, six CCG_* clips). UEFN imports FBX skeletal meshes for props / NPC (NPC Spawner character) only — players cannot wear it. Legacy Tripo OBJ kept under meshSource for re-running rig_rider.py. Max tier: the three-section hero FBX with three 2K sheets (UEFN cooks textures to 2048² max, so the split is how the face gets a full sheet).",
+   "textures": {
+    "baseColor": "assets/riders/Koda/T_Koda_BC.png (2048, sRGB)",
+    "normal": "assets/riders/Koda/T_Koda_N.png (2048, tangent, OpenGL +Y -> Flip Green)",
+    "orm": "assets/riders/Koda/T_Koda_ORM.png (2048: R=AO G=rough B=metal)",
+    "masters": "../shared/riders/tex/ (4K)"
+   },
+   "meshFbxHero": "assets/riders/Koda/SK_Koda_UEFN.fbx (3 material slots: M_Koda_Head / _Upper / _Lower)",
+   "texturesHero": {
+    "Head": {
+     "BC": "assets/riders/Koda/T_Koda_Head_BC.png",
+     "N": "assets/riders/Koda/T_Koda_Head_N.png (DirectX)",
+     "ORM": "assets/riders/Koda/T_Koda_Head_ORM.png",
+     "SMR": "assets/riders/Koda/T_Koda_Head_SMR.png (R spec G metal B rough — Fortnite master packing)",
+     "Mask": "assets/riders/Koda/T_Koda_Head_Mask.png (R eyes, G nose, B curvature)"
+    },
+    "Upper": {
+     "BC": "assets/riders/Koda/T_Koda_Upper_BC.png",
+     "N": "assets/riders/Koda/T_Koda_Upper_N.png (DirectX)",
+     "ORM": "assets/riders/Koda/T_Koda_Upper_ORM.png",
+     "SMR": "assets/riders/Koda/T_Koda_Upper_SMR.png (R spec G metal B rough — Fortnite master packing)",
+     "Mask": "assets/riders/Koda/T_Koda_Upper_Mask.png (R eyes, G nose, B curvature)"
+    },
+    "Lower": {
+     "BC": "assets/riders/Koda/T_Koda_Lower_BC.png",
+     "N": "assets/riders/Koda/T_Koda_Lower_N.png (DirectX)",
+     "ORM": "assets/riders/Koda/T_Koda_Lower_ORM.png",
+     "SMR": "assets/riders/Koda/T_Koda_Lower_SMR.png (R spec G metal B rough — Fortnite master packing)",
+     "Mask": "assets/riders/Koda/T_Koda_Lower_Mask.png (R eyes, G nose, B curvature)"
+    }
+   }
+  },
+  {
+   "id": "crash",
+   "name": "Crash the Collie",
+   "kind": "dog",
+   "slot": 2,
+   "stance": "regular",
+   "stats": {
+    "speed": 6,
+    "balance": 9,
+    "air": 6,
+    "flip": 7
+   },
+   "meshSource": "/home/claude/ccg/in/crash/tripo_convert_1cb4f3f7-1454-4ffc-ad33-c1c8db147602.obj",
+   "meshSourceBytes": 94161487,
+   "sourceTriangles": 1948140,
+   "sourceHasUVs": false,
+   "decimatedPreview": "/home/claude/ccg/assets/riders/crash_web.glb and crash_mid.glb, no UVs",
+   "meshFbx": "assets/riders/Crash/SK_Crash.fbx",
+   "rig": {
+    "type": "rigify-deform",
+    "bones": 33,
+    "height_m": 1.1,
+    "forward": "-Y (Blender) / -Z (glTF)",
+    "clips": [
+     "CCG_Stance",
+     "CCG_Idle",
+     "CCG_Crouch",
+     "CCG_Pop",
+     "CCG_Push",
+     "CCG_Grind"
+    ],
+    "vertexColors": false,
+    "tris": 40000,
+    "stance": "regular; mirror for goofy",
+    "uv": "UVMap (baked)"
+   },
+   "meshNote": "Rigged + animated FBX (40k tris, baked PBR textures, UV set, 33-bone Rigify deform skeleton, six CCG_* clips). UEFN imports FBX skeletal meshes for props / NPC (NPC Spawner character) only — players cannot wear it. Legacy Tripo OBJ kept under meshSource for re-running rig_rider.py. Max tier: the three-section hero FBX with three 2K sheets (UEFN cooks textures to 2048² max, so the split is how the face gets a full sheet).",
+   "textures": {
+    "baseColor": "assets/riders/Crash/T_Crash_BC.png (2048, sRGB)",
+    "normal": "assets/riders/Crash/T_Crash_N.png (2048, tangent, OpenGL +Y -> Flip Green)",
+    "orm": "assets/riders/Crash/T_Crash_ORM.png (2048: R=AO G=rough B=metal)",
+    "masters": "../shared/riders/tex/ (4K)"
+   },
+   "meshFbxHero": "assets/riders/Crash/SK_Crash_UEFN.fbx (3 material slots: M_Crash_Head / _Upper / _Lower)",
+   "texturesHero": {
+    "Head": {
+     "BC": "assets/riders/Crash/T_Crash_Head_BC.png",
+     "N": "assets/riders/Crash/T_Crash_Head_N.png (DirectX)",
+     "ORM": "assets/riders/Crash/T_Crash_Head_ORM.png",
+     "SMR": "assets/riders/Crash/T_Crash_Head_SMR.png (R spec G metal B rough — Fortnite master packing)",
+     "Mask": "assets/riders/Crash/T_Crash_Head_Mask.png (R eyes, G nose, B curvature)"
+    },
+    "Upper": {
+     "BC": "assets/riders/Crash/T_Crash_Upper_BC.png",
+     "N": "assets/riders/Crash/T_Crash_Upper_N.png (DirectX)",
+     "ORM": "assets/riders/Crash/T_Crash_Upper_ORM.png",
+     "SMR": "assets/riders/Crash/T_Crash_Upper_SMR.png (R spec G metal B rough — Fortnite master packing)",
+     "Mask": "assets/riders/Crash/T_Crash_Upper_Mask.png (R eyes, G nose, B curvature)"
+    },
+    "Lower": {
+     "BC": "assets/riders/Crash/T_Crash_Lower_BC.png",
+     "N": "assets/riders/Crash/T_Crash_Lower_N.png (DirectX)",
+     "ORM": "assets/riders/Crash/T_Crash_Lower_ORM.png",
+     "SMR": "assets/riders/Crash/T_Crash_Lower_SMR.png (R spec G metal B rough — Fortnite master packing)",
+     "Mask": "assets/riders/Crash/T_Crash_Lower_Mask.png (R eyes, G nose, B curvature)"
+    }
+   }
+  },
+  {
+   "id": "yara",
+   "name": "Yara",
+   "kind": "human",
+   "slot": 3,
+   "model": "Model 10",
+   "stance": "regular",
+   "stats": {
+    "speed": 7,
+    "balance": 7,
+    "air": 8,
+    "flip": 8
+   },
+   "meshSource": null,
+   "note": "Fortnite skin stand-in; long auburn locs, gold hoops, burgundy lip, aviator glasses"
+  },
+  {
+   "id": "sunny",
+   "name": "Sunny",
+   "kind": "human",
+   "slot": 4,
+   "model": "Model 11",
+   "stance": "goofy",
+   "stats": {
+    "speed": 8,
+    "balance": 8,
+    "air": 6,
+    "flip": 6
+   },
+   "meshSource": null,
+   "note": "long blonde beach waves, blue eyes, drop earrings"
+  },
+  {
+   "id": "rubi",
+   "name": "Rubí",
+   "kind": "human",
+   "slot": 5,
+   "model": "Model 6",
+   "stance": "regular",
+   "stats": {
+    "speed": 6,
+    "balance": 9,
+    "air": 7,
+    "flip": 7
+   },
+   "meshSource": null,
+   "note": "big red curls, round gold glasses, gold hoops"
+  },
+  {
+   "id": "kai",
+   "name": "Kai",
+   "kind": "human",
+   "slot": 6,
+   "model": "Model 2",
+   "stance": "switch-capable",
+   "stats": {
+    "speed": 8,
+    "balance": 6,
+    "air": 7,
+    "flip": 9
+   },
+   "meshSource": null,
+   "note": "black bob with bangs, gold aviators, gold hoops"
+  }
+ ],
+ "meshImportNotes": [
+  "Dog riders are rigged and animated: ../shared/riders/SK_{Kefla,Koda,Crash}.fbx (40k tris, vertex colours, 33-bone Rigify deform-only skeleton with a single root, 1.1 m, -Y forward / Z up, six baked clips CCG_Stance/Idle/Crouch/Pop/Push/Grind at 30 fps). rig_rider.py next to them is the reproducible Blender pipeline.",
+  "UEFN imports FBX skeletal meshes for PROPS and NPCs only (Modeling / Skeletal Mesh import -> NPC Spawner character or an animated prop via Sequencer). Fortnite players cannot wear custom skeletal meshes: dog classes get a Fortnite character with a dog-themed wrap; the SK_* meshes stand on the rider podiums, results and store display, or run as NPC spawner companions playing CCG_Idle / CCG_Push.",
+  "Import settings: Convert Scene + Force Front XAxis (Blender -Y forward), uniform scale 100 if the mesh arrives 1.1 uu tall, vertex colour import = Replace (no UV-mapped texture yet; use a Vertex Color material). Nanite OFF for skeletal meshes (ON is fine for custom static props, see UEFN_GRAPHICS.md); add LODs (LOD0 40k, LOD1 15k, LOD2 5k) to stay inside the island memory budget.",
+  "Decks and clothing from the store catalog are names only in the data; author placeholder deck meshes (Skatepark gallery deck prop) and label them with Billboard devices."
+ ],
+ "galleries": [
+  "Skatepark Gallery",
+  "Pipe Gallery",
+  "Road Gallery",
+  "Sidewalk Gallery",
+  "Stair Gallery",
+  "Concrete Block Gallery",
+  "Tropical Tree Gallery",
+  "Power Line Gallery",
+  "Fence Gallery (Plywood)",
+  "Retail Row / Tilted Towers building galleries",
+  "Water Gallery"
+ ],
+ "devicesUsed": [
+  "Billboard device",
+  "barrier_device",
+  "button_device",
+  "class_and_team_selector_device",
+  "class_designer_device",
+  "creative_prop (markers)",
+  "customizable_light_device",
+  "day_sequence_device",
+  "end_game_device",
+  "hud_message_device",
+  "item_granter_device",
+  "trigger_device",
+  "vfx_spawner_device",
+  "volume_device"
+ ],
+ "knownLimits": [
+  "UEFN has no native grind physics; ccg_rail implements a teleport-along-marker-chain tick (see file header for the trade-off vs cinematic_sequence_device).",
+  "Vagamundo barrier is a world object: it opens for all players once any player masters P2+P3+P4.",
+  "Flat tricks (ollie/kickflip/...) need an input or animation hook calling ccg_game_manager.AwardTrick/Land/Bail; debug buttons are provided.",
+  "Scoring and rider constants are duplicated in Verse (re-sync by hand); the store catalog is regenerated with ../shared/gen_store.py when ccg_data.json changes."
+ ],
+ "riderMeshes": {
+  "folder": "../shared/riders/",
+  "files": [
+   "SK_Kefla.fbx",
+   "SK_Koda.fbx",
+   "SK_Crash.fbx",
+   "rig_rider.py"
+  ],
+  "bytesEach": 3600000
+ },
+ "route": {
+  "routeLengthM": 1758,
+  "waypoints": 18,
+  "spur": "courtyard (80 m dirt drive south of courtyard_turnin)",
+  "paths": [
+   {
+    "name": "First Path",
+    "lengthM": 224,
+    "elevMin": 5.4,
+    "elevMax": 6.59,
+    "maxSlopeDeg": 3.5
+   },
+   {
+    "name": "Second Path A",
+    "lengthM": 683,
+    "elevMin": 5.98,
+    "elevMax": 9.7,
+    "maxSlopeDeg": 5.4
+   },
+   {
+    "name": "Second Path B",
+    "lengthM": 532,
+    "elevMin": 6.76,
+    "elevMax": 9.4,
+    "maxSlopeDeg": 4.7
+   },
+   {
+    "name": "Third Path",
+    "lengthM": 320,
+    "elevMin": 4.95,
+    "elevMax": 8.0,
+    "maxSlopeDeg": 3.8
+   }
+  ]
+ },
+ "murals": {
+  "folder": "assets/murals/",
+  "files": [
+   "mural_vicewave.jpg",
+   "mural_clisante_rush.jpg",
+   "mural_over_everything.jpg",
+   "mural_schnauzer_detectives.jpg",
+   "mural_ppa_microdrama.jpg",
+   "mural_paw_power_arena.jpg"
+  ],
+  "note": "ccg_data.murals; wallride walls with a sunset wash light; placement table in LEVEL_BUILD_GUIDE.md §8b"
+ },
+ "riderTextures": {
+  "folder": "../shared/riders/tex/",
+  "files": [
+   "T_Kefla_albedo.png",
+   "T_Kefla_normal.png",
+   "T_Kefla_ao.png",
+   "T_Koda_albedo.png",
+   "T_Koda_normal.png",
+   "T_Koda_ao.png",
+   "T_Crash_albedo.png",
+   "T_Crash_normal.png",
+   "T_Crash_ao.png"
+  ],
+  "resolution": 4096,
+  "status": "pending — baked in Blender from the Tripo scans; SK_<Name>.fbx re-exported with UVs at the same time"
+ },
+ "graphicsMaxTier": {
+  "doc": "UEFN_GRAPHICS.md",
+  "environmentSets": "assets/materials/TEXTURE_MANIFEST.json",
+  "signs": "assets/signs/SIGN_MANIFEST.json",
+  "murals": "assets/murals/MURAL_MANIFEST.json",
+  "normalConvention": "DirectX (-Y) everywhere in this package — import with Flip Green OFF",
+  "textureCap": "every texture ≤ 2048², power of two, streamable (Fortnite cook limit)",
+  "verse": "ccg_graphics.verse + ccg_timeofday fades + ccg_rail spark-light pool"
+ }
+}

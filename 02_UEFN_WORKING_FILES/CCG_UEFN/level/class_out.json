@@ -1,0 +1,32 @@
+{
+ "designers": {
+  "0": 1,
+  "name_0": true,
+  "1": 2,
+  "name_1": true,
+  "2": 3,
+  "name_2": true,
+  "3": 4,
+  "name_3": true,
+  "4": 5,
+  "name_4": true,
+  "5": 6,
+  "name_5": true,
+  "6": 7,
+  "name_6": true
+ },
+ "selectors": {
+  "0": 1,
+  "1": 2,
+  "2": 3,
+  "3": 4,
+  "4": 5,
+  "5": 6,
+  "6": 7
+ },
+ "errors": [],
+ "hud": {
+  "Size": "ok",
+  "DisplayTime": "ok"
+ }
+}

@@ -1,0 +1,274 @@
+Begin Map Name=/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind
+   Begin Level NAME=PersistentLevel
+      Begin Actor Class=/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C Name=Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888 Archetype="/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Default__Device_VFXSpawner_V2_C'" ActorFolderPath="None" ExportPath="/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Default__Device_VFXSpawner_V2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Default__Device_VFXSpawner_V2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Default__Device_VFXSpawner_V2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.ToyOptionsComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype="/Script/FortniteGame.FortMinigameProgressComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:FortMinigameProgress_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.FortMinigameProgress'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:EnabledComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EnabledComponent'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.VisibleInGameComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="OnReceiveDisable" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:OnReceiveDisable_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.OnReceiveDisable'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="OnReceiveEnable" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:OnReceiveEnable_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.OnReceiveEnable'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="AdditionalVisibleItemRoot" Archetype="/Script/Engine.SceneComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:AdditionalVisibleItemRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.AdditionalVisibleItemRoot'"
+         End Object
+         Begin Object Class=/Script/CascadeRuntime.ParticleSystemComponent Name="IdleFX" Archetype="/Script/CascadeRuntime.ParticleSystemComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:IdleFX_GEN_VARIABLE'" ExportPath="/Script/CascadeRuntime.ParticleSystemComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.IdleFX'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="OnEnableTrigger" Archetype="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:OnEnableTrigger_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.OnEnableTrigger'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="OnDisableTrigger" Archetype="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:OnDisableTrigger_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.OnDisableTrigger'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="Arrow" Archetype="/Script/Engine.SceneComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:Arrow_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.Arrow'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="ArrowRotationalOffset" Archetype="/Script/Engine.SceneComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:ArrowRotationalOffset_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.ArrowRotationalOffset'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="ArrowLocationOffset" Archetype="/Script/Engine.SceneComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:ArrowLocationOffset_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.ArrowLocationOffset'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="EditOnly_Arrow" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:EditOnly_Arrow_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditOnly_Arrow'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="EditOnly_Icon" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:EditOnly_Icon_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditOnly_Icon'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="EditOnly_GizmoSphere" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:EditOnly_GizmoSphere_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditOnly_GizmoSphere'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="EditOnly_GizmoGyro" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:EditOnly_GizmoGyro_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditOnly_GizmoGyro'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="EditOnly_GizmoRing" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:EditOnly_GizmoRing_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditOnly_GizmoRing'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C Name="Creative_UseRestriction_Component" Archetype="/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:Creative_UseRestriction_Component_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.Creative_UseRestriction_Component'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameLogicComponent Name="FortMinigameLogic" Archetype="/Script/FortniteGame.FortMinigameLogicComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:FortMinigameLogic_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortMinigameLogicComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.FortMinigameLogic'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="OnReceiveReset" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:OnReceiveReset_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.OnReceiveReset'"
+         End Object
+         Begin Object Class=/SplitscreenVisibilityControls/Creative_SplitscreenVisibility_Component.Creative_SplitscreenVisibility_Component_C Name="Creative_SplitscreenVisibility_Component" Archetype="/SplitscreenVisibilityControls/Creative_SplitscreenVisibility_Component.Creative_SplitscreenVisibility_Component_C'/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C:Creative_SplitscreenVisibility_Component_GEN_VARIABLE'" ExportPath="/SplitscreenVisibilityControls/Creative_SplitscreenVisibility_Component.Creative_SplitscreenVisibility_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.Creative_SplitscreenVisibility_Component'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.StaticMeshComponent0'"
+            CachedMaxDrawDistance=2800.000000
+            BodyInstance=(CollisionEnabled=QueryAndPhysics)
+            OnComponentPhysicsStateChanged=()
+            RelativeLocation=(X=7991.700000,Y=12802.100000,Z=122.400000)
+            RelativeRotation=(Pitch=0.000000,Yaw=52.431408,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.ToyOptionsComponent'"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="BurstVisualEffect",PropertyData="Explosion Small"),(PropertyName="ClearParticlesOnDisable",PropertyData="True"),(PropertyName="Colorize VFX",PropertyData="False"),(PropertyName="Custom Additive Color",PropertyData="(R=1.000000,G=0.215861,B=0.000000,A=1.000000)"),(PropertyName="Custom Color",PropertyData="(R=0.015209,G=0.187821,B=0.296138,A=1.000000)"),(PropertyName="CustomVisualEffect",PropertyData="None"),(PropertyName="CustomVisualEffect_Override",PropertyData="False"),(PropertyName="DeveloperVisualEffect",PropertyData="SmallTornado"),(PropertyName="EffectType",PropertyData="Continuous"),(PropertyName="Enabled On Phase",PropertyData="Always"),(PropertyName="EnabledTime"),(PropertyName="EnableOnReset",PropertyData="True"),(PropertyName="InvertClassSelection",PropertyData="False"),(PropertyName="InvertTeamSelection",PropertyData="False"),(PropertyName="LabelOverride",PropertyData="FD_Sparks_flat_33"),(PropertyName="Sound_Effect",PropertyData="Default"),(PropertyName="SpawnRate",PropertyData="1.000000"),(PropertyName="UseDeveloperFX",PropertyData="False"),(PropertyName="UseRadioTempo",PropertyData="False"),(PropertyName="VisibleToClass",PropertyData="(ClassType=Any,ClassSlot=1)"),(PropertyName="VisibleToTeam",PropertyData="(TeamType=Any,TeamIndex=1)"),(PropertyName="Visual_Effect",PropertyData="DiscoBalls")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.FortMinigameProgress'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EnabledComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.VisibleInGameComponent'"
+            VisibleSceneComponents(0)="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="OnReceiveDisable" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.OnReceiveDisable'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="OnReceiveEnable" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.OnReceiveEnable'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="AdditionalVisibleItemRoot" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.AdditionalVisibleItemRoot'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="IdleFX" ExportPath="/Script/CascadeRuntime.ParticleSystemComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.IdleFX'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="OnEnableTrigger" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.OnEnableTrigger'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="OnDisableTrigger" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.OnDisableTrigger'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Arrow" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.Arrow'"
+            AttachParent="StaticMeshComponent0"
+            RelativeRotation=(Pitch=0.000000,Yaw=0.000000,Roll=-0.000000)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ArrowRotationalOffset" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.ArrowRotationalOffset'"
+            AttachParent="Arrow"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ArrowLocationOffset" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.ArrowLocationOffset'"
+            AttachParent="ArrowRotationalOffset"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EditOnly_Arrow" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditOnly_Arrow'"
+            StaticMesh="/Script/Engine.StaticMesh'/CRD_VFX_Spawner/Assets/StaticMesh/CP_Device_Generic_DirTripleArrow_Placed.CP_Device_Generic_DirTripleArrow_Placed'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Devices/Generic/Materials/MI_CP_Device_Generic_DirArrow_NoOffset.MI_CP_Device_Generic_DirArrow_NoOffset'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="ArrowLocationOffset"
+            bHiddenInGame=True
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EditOnly_Icon" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditOnly_Icon'"
+            StaticMesh="/Script/Engine.StaticMesh'/CRD_VFX_Spawner/Creative/Devices/VFX/Meshes/CP_Device_VFX_01.CP_Device_VFX_01'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EditOnly_GizmoSphere" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditOnly_GizmoSphere'"
+            StaticMesh="/Script/Engine.StaticMesh'/CRD_VFX_Spawner/Assets/StaticMesh/CP_Device_Generic_DirSphere_Placed.CP_Device_Generic_DirSphere_Placed'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            bHiddenInGame=True
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EditOnly_GizmoGyro" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditOnly_GizmoGyro'"
+            StaticMesh="/Script/Engine.StaticMesh'/CRD_VFX_Spawner/Assets/StaticMesh/CP_Device_Generic_Gyro_Placed.CP_Device_Generic_Gyro_Placed'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            bHiddenInGame=True
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EditOnly_GizmoRing" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.EditOnly_GizmoRing'"
+            StaticMesh="/Script/Engine.StaticMesh'/CRD_VFX_Spawner/Assets/StaticMesh/CP_Device_Generic_Ring_Placed.CP_Device_Generic_Ring_Placed'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Creative_UseRestriction_Component" ExportPath="/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.Creative_UseRestriction_Component'"
+            EnabledComponent="EnabledComponent"
+            ToyOptions="ToyOptionsComponent"
+            RequiredTeam=-5
+            NativeRequiredTeam=-5
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameLogic" ExportPath="/Script/FortniteGame.FortMinigameLogicComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.FortMinigameLogic'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="OnReceiveReset" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.OnReceiveReset'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Creative_SplitscreenVisibility_Component" ExportPath="/SplitscreenVisibilityControls/Creative_SplitscreenVisibility_Component.Creative_SplitscreenVisibility_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.Creative_SplitscreenVisibility_Component'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Creative_SplitscreenVisibility_Component="Creative_SplitscreenVisibility_Component"
+         OnReceiveReset="OnReceiveReset"
+         FortMinigameLogic="FortMinigameLogic"
+         Creative_UseRestriction_Component="Creative_UseRestriction_Component"
+         ArrowLocationOffset="ArrowLocationOffset"
+         ArrowRotationalOffset="ArrowRotationalOffset"
+         EditOnly_Arrow="EditOnly_Arrow"
+         EditOnly_GizmoRing="EditOnly_GizmoRing"
+         EditOnly_GizmoGyro="EditOnly_GizmoGyro"
+         EditOnly_GizmoSphere="EditOnly_GizmoSphere"
+         EditOnly_Icon="EditOnly_Icon"
+         Arrow="Arrow"
+         OnDisableTrigger="OnDisableTrigger"
+         OnEnableTrigger="OnEnableTrigger"
+         IdleFX="IdleFX"
+         AdditionalVisibleItemRoot="AdditionalVisibleItemRoot"
+         OnReceiveEnable="OnReceiveEnable"
+         OnReceiveDisable="OnReceiveDisable"
+         ParticleSystemVectorParameters=(("Color", (R=1.000000,G=0.215861,B=0.000000,A=1.000000)))
+         ParticleSystemScalarParameters=(("SpawnRate", 1.000000),("UseCustomColor", 0.000000))
+         GizmoMeshType=NewEnumerator2
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         On Play Mode Changed=(/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_VFXSpawner_V2_C_UAID_BC38988AD19DCD1503_1252613888.ReapplyGameplayEffectsWhenEnteringEditMode)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         MyGuid=A249C26C4D7C5701BD7A2E8222B3C4F3
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000F50E17A7
+         LabelOverride="FD_Sparks_flat_33"
+         NetDormancy=DORM_DormantAll
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FD_Sparks_flat_33"
+         BlueprintCreatedComponents(0)="ToyOptionsComponent"
+         BlueprintCreatedComponents(1)="FortMinigameProgress"
+         BlueprintCreatedComponents(2)="EnabledComponent"
+         BlueprintCreatedComponents(3)="VisibleInGameComponent"
+         BlueprintCreatedComponents(4)="OnReceiveDisable"
+         BlueprintCreatedComponents(5)="OnReceiveEnable"
+         BlueprintCreatedComponents(6)="AdditionalVisibleItemRoot"
+         BlueprintCreatedComponents(7)="IdleFX"
+         BlueprintCreatedComponents(8)="OnEnableTrigger"
+         BlueprintCreatedComponents(9)="OnDisableTrigger"
+         BlueprintCreatedComponents(10)="Arrow"
+         BlueprintCreatedComponents(11)="ArrowRotationalOffset"
+         BlueprintCreatedComponents(12)="ArrowLocationOffset"
+         BlueprintCreatedComponents(13)="EditOnly_Arrow"
+         BlueprintCreatedComponents(14)="EditOnly_Icon"
+         BlueprintCreatedComponents(15)="EditOnly_GizmoSphere"
+         BlueprintCreatedComponents(16)="EditOnly_GizmoGyro"
+         BlueprintCreatedComponents(17)="EditOnly_GizmoRing"
+         BlueprintCreatedComponents(18)="Creative_UseRestriction_Component"
+         BlueprintCreatedComponents(19)="FortMinigameLogic"
+         BlueprintCreatedComponents(20)="OnReceiveReset"
+         BlueprintCreatedComponents(21)="Creative_SplitscreenVisibility_Component"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

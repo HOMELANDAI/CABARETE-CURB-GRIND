@@ -1,0 +1,223 @@
+{
+ "palms": [
+  [
+   "L_Palm_025",
+   "CCG_Palm_A",
+   785
+  ],
+  [
+   "L_Palm_011",
+   "CCG_Palm_B",
+   704
+  ],
+  [
+   "L_Palm_014",
+   "CCG_Palm_B",
+   712
+  ],
+  [
+   "L_Palm_024",
+   "CCG_Palm_A",
+   666
+  ],
+  [
+   "L_Palm_026",
+   "CCG_Palm_A",
+   762
+  ],
+  [
+   "L_Palm_P1_1",
+   "CCG_Palm_B",
+   703
+  ],
+  [
+   "L_Palm_009",
+   "CCG_Palm_B",
+   785
+  ],
+  [
+   "L_Palm_004",
+   "CCG_Palm_A",
+   721
+  ],
+  [
+   "L_Palm_006",
+   "CCG_Palm_A",
+   713
+  ],
+  [
+   "L_Palm_003",
+   "CCG_Palm_A",
+   667
+  ],
+  [
+   "L_Palm_008",
+   "CCG_Palm_B",
+   692
+  ],
+  [
+   "L_Palm_021",
+   "CCG_Palm_A",
+   735
+  ],
+  [
+   "L_Palm_012",
+   "CCG_Palm_B",
+   759
+  ],
+  [
+   "L_Palm_022",
+   "CCG_Palm_B",
+   725
+  ],
+  [
+   "L_Palm_002",
+   "CCG_Palm_A",
+   728
+  ],
+  [
+   "L_Palm_P3_2",
+   "CCG_Palm_A",
+   780
+  ],
+  [
+   "L_Palm_018",
+   "CCG_Palm_A",
+   760
+  ],
+  [
+   "L_Palm_001",
+   "CCG_Palm_A",
+   650
+  ],
+  [
+   "L_Palm_PalmWrap",
+   "CCG_Palm_A",
+   783
+  ],
+  [
+   "L_Palm_P4_2",
+   "CCG_Palm_A",
+   755
+  ],
+  [
+   "L_Palm_P3_1",
+   "CCG_Palm_A",
+   765
+  ],
+  [
+   "L_Palm_015",
+   "CCG_Palm_A",
+   779
+  ],
+  [
+   "L_Palm_013",
+   "CCG_Palm_B",
+   758
+  ],
+  [
+   "L_Palm_P4_1",
+   "CCG_Palm_B",
+   743
+  ],
+  [
+   "L_Palm_020",
+   "CCG_Palm_A",
+   701
+  ],
+  [
+   "L_Palm_017",
+   "CCG_Palm_B",
+   663
+  ],
+  [
+   "L_Palm_010",
+   "CCG_Palm_B",
+   769
+  ],
+  [
+   "L_Palm_016",
+   "CCG_Palm_A",
+   702
+  ],
+  [
+   "L_Palm_005",
+   "CCG_Palm_A",
+   768
+  ],
+  [
+   "L_Palm_P1_2",
+   "CCG_Palm_A",
+   719
+  ],
+  [
+   "L_Palm_023",
+   "CCG_Palm_B",
+   723
+  ],
+  [
+   "L_Palm_000",
+   "CCG_Palm_A",
+   677
+  ],
+  [
+   "L_Palm_007",
+   "CCG_Palm_A",
+   736
+  ],
+  [
+   "L_Palm_019",
+   "CCG_Palm_A",
+   769
+  ],
+  [
+   "L_Palm_027",
+   "CCG_Palm_A",
+   711
+  ]
+ ],
+ "placed": {
+  "CCG_Bougainvillea": 194,
+  "CCG_SeaGrape": 181
+ },
+ "rejected": {
+  "L_Fill_033": 1,
+  "nothing": 11,
+  "L_Bldg_07_Villa_Taina": 1,
+  "L_Fill_032": 1,
+  "L_Road_Highway5": 51,
+  "L_Fill_001": 1,
+  "L_Park_P3_Mojito": 5,
+  "L_Fill_021": 1,
+  "L_Park_P4_Courtyard": 2,
+  "L_Bldg_14_Olivias": 1,
+  "L_Fill_019": 1,
+  "L_Park_P1_Vagamundo": 1,
+  "L_Fill_028": 1,
+  "L_Bldg_23_Restaurant": 1,
+  "L_Bldg_20_Yummy": 1,
+  "L_Bldg_00_Estacion": 4,
+  "L_Bldg_15_Mojito_Bar": 1,
+  "L_Fill_024": 1,
+  "L_Fill_023": 1,
+  "L_Park_P2_Multiplex": 5,
+  "L_Fill_038": 1,
+  "L_Fill_037": 1,
+  "L_Bldg_01_plain": 2,
+  "L_Bldg_08_Full_Moon": 2,
+  "L_Fill_045": 1,
+  "L_Bldg_16_Plaza_Garden": 1,
+  "L_Bldg_12_OJO_Club": 1,
+  "L_Fill_020": 1,
+  "L_Fill_003": 1,
+  "L_Fill_060": 1,
+  "L_Fill_011": 1,
+  "L_Fill_062": 1,
+  "L_Fill_048": 1,
+  "L_Fill_036": 1,
+  "L_Fill_066": 1,
+  "L_Fill_058": 1
+ },
+ "err": [],
+ "total": 375
+}

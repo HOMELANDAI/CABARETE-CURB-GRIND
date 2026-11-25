@@ -1,0 +1,23 @@
+{
+ "fixed": [
+  [
+   "M_CCG_Road",
+   0
+  ],
+  [
+   "M_CCG_Env",
+   0
+  ],
+  [
+   "M_CCG_Decal",
+   0
+  ]
+ ],
+ "nanite_flag": [
+  "M_CCG_Road",
+  "M_CCG_Env",
+  "M_CCG_Rider"
+ ],
+ "blend": "<BlendMode.BLEND_ALPHA_COMPOSITE: 5>",
+ "errors": []
+}

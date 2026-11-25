@@ -1,0 +1,79 @@
+Begin Map Name=/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind
+   Begin Level NAME=PersistentLevel
+      Begin Actor Class=/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager.BP_LumenExposureManager_C Name=BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692 Archetype="/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager.BP_LumenExposureManager_C'/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager.Default__BP_LumenExposureManager_C'" ActorFolderPath="None" ExportPath="/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager.BP_LumenExposureManager_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692'"
+         Begin Object Class=/Script/Engine.PostProcessComponent Name="NonLumenPostProcess" Archetype="/Script/Engine.PostProcessComponent'/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager.BP_LumenExposureManager_C:NonLumenPostProcess_GEN_VARIABLE'" ExportPath="/Script/Engine.PostProcessComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.NonLumenPostProcess'"
+         End Object
+         Begin Object Class=/Script/Engine.PostProcessComponent Name="LumenPostProcess" Archetype="/Script/Engine.PostProcessComponent'/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager.BP_LumenExposureManager_C:LumenPostProcess_GEN_VARIABLE'" ExportPath="/Script/Engine.PostProcessComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.LumenPostProcess'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="Box" Archetype="/Script/Engine.BoxComponent'/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager.BP_LumenExposureManager_C:Box_GEN_VARIABLE'" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.Box'"
+         End Object
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Billboard" Archetype="/Script/Engine.BillboardComponent'/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager.BP_LumenExposureManager_C:Billboard_GEN_VARIABLE'" ExportPath="/Script/Engine.BillboardComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.Billboard'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager.Default__BP_LumenExposureManager_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager.Default__BP_LumenExposureManager_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager.Default__BP_LumenExposureManager_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.StaticMeshComponent0'"
+         End Object
+         Begin Object Name="NonLumenPostProcess" ExportPath="/Script/Engine.PostProcessComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.NonLumenPostProcess'"
+            bEnabled=False
+            AttachParent="Box"
+            bVisible=False
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="LumenPostProcess" ExportPath="/Script/Engine.PostProcessComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.LumenPostProcess'"
+            AttachParent="Box"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Box" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.Box'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Billboard" ExportPath="/Script/Engine.BillboardComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.Billboard'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_LumenExposureManager_C_UAID_BC38988AD19DE71503_1906571692.StaticMeshComponent0'"
+            OnComponentPhysicsStateChanged=()
+            RelativeLocation=(X=-1000.000000,Y=-500.000000,Z=300.000000)
+         End Object
+         NonLumenPostProcess="NonLumenPostProcess"
+         LumenPostProcess="LumenPostProcess"
+         Box="Box"
+         Billboard="Billboard"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         MyGuid=28F27C844E35EDEC72854FAB82ECDEF5
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=0000000000000000000000005AF76910
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FD_LumenExposure"
+         BlueprintCreatedComponents(0)="Billboard"
+         BlueprintCreatedComponents(1)="Box"
+         BlueprintCreatedComponents(2)="LumenPostProcess"
+         BlueprintCreatedComponents(3)="NonLumenPostProcess"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

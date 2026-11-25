@@ -1,0 +1,29 @@
+{
+ "fills_fixed": 69,
+ "signs": 31,
+ "used": {
+  "MI_Sign_Vagamundo": 4,
+  "MI_Stucco": 28,
+  "MI_Sign_Fresh_Fresh": 3,
+  "MI_Sign_Ocean_Dream_Plaza": 2,
+  "MI_Sign_Santa_Paella": 1,
+  "MI_Sign_Wallride": 1,
+  "MI_Sign_Olivias": 3,
+  "MI_Sign_Courtyard_Park": 4,
+  "MI_Sign_Restaurant": 2,
+  "MI_Sign_Marion": 3,
+  "MI_Sign_Bonus_Lock": 2,
+  "MI_Sign_Lot_Two": 2,
+  "MI_Sign_Mojito_Bar": 3,
+  "MI_Sign_Mojito_Park": 1,
+  "MI_Sign_Pizza_House": 1,
+  "MI_Sign_ProCab": 1,
+  "MI_Sign_Gym": 1,
+  "MI_Sign_Yummy": 1,
+  "MI_Sign_Presidential_Suites": 2,
+  "MI_Sign_Lot_One": 1,
+  "MI_Sign_Bakery": 1,
+  "MI_Sign_Villa_Taina": 1,
+  "MI_Sign_Gorditos": 1
+ }
+}

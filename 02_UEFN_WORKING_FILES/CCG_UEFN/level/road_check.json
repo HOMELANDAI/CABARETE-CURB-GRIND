@@ -1,0 +1,15 @@
+{
+ "BaseColor": "T_Asphalt_Hwy5_BC",
+ "Normal": "T_Asphalt_Hwy5_N",
+ "ORM": "T_Asphalt_Hwy5_ORM",
+ "WetMask": "T_Road_Wet_Mask",
+ "Tiling": 1.0,
+ "Wetness": 0.30000001192092896,
+ "WetScale": 900.0,
+ "mi_tiling": 1.0,
+ "mi_wet": 0.30000001192092896,
+ "asphalt_tiling": 1.0,
+ "asphalt_bc": "T_Asphalt_Hwy5_BC",
+ "sunset_prio": 1900,
+ "ppv": "on, exposure window off"
+}

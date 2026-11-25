@@ -1,0 +1,24 @@
+# Large binaries stay on the F drive (see README). Add Git LFS before un-ignoring.
+01_UEFN_PROJECT/
+07_MEDIA_KIT_ZIPS/
+08_TRIPO_EXTRAS/
+02_UEFN_WORKING_FILES/CCG_UEFN/uefn/assets/
+02_UEFN_WORKING_FILES/CCG_UEFN/level/export/
+02_UEFN_WORKING_FILES/CCG_UEFN/level/shots/
+02_UEFN_WORKING_FILES/CCG_UEFN/level/shots2/
+02_UEFN_WORKING_FILES/CCG_UEFN/*.zip
+03_MODELS_3D/tripo_pipeline/decks/raw/
+03_MODELS_3D/tripo_pipeline/decks/*.glb
+03_MODELS_3D/tripo_pipeline/tripo_tex4k/
+03_MODELS_3D/tripo_pipeline/tripo_posed/
+03_MODELS_3D/tripo_pipeline/foliage/*.glb
+03_MODELS_3D/decks/
+03_MODELS_3D/foliage/
+03_MODELS_3D/glb_raw/
+04_RIDERS_CCG_Riders/CCG_Riders/in/
+04_RIDERS_CCG_Riders/CCG_Riders/out/
+04_RIDERS_CCG_Riders/CCG_Riders/tripo/
+05_IMAGES_AND_STILLS/showcase_videos/
+*.blend1
+Thumbs.db
+.DS_Store

@@ -1,0 +1,94 @@
+{
+ "set": {
+  "lamps": 88,
+  "floods": 18,
+  "mural": 6,
+  "sparklights": 2,
+  "sparks": 88
+ },
+ "errors": [],
+ "classes": {
+  "0": {
+   "slot": 1,
+   "type": "<CreativeClassType.CLASS_SLOT: 0>"
+  },
+  "1": {
+   "slot": 1,
+   "type": "<CreativeClassType.CLASS_SLOT: 0>"
+  },
+  "2": {
+   "slot": 1,
+   "type": "<CreativeClassType.CLASS_SLOT: 0>"
+  },
+  "3": {
+   "slot": 1,
+   "type": "<CreativeClassType.CLASS_SLOT: 0>"
+  },
+  "4": {
+   "slot": 1,
+   "type": "<CreativeClassType.CLASS_SLOT: 0>"
+  },
+  "5": {
+   "slot": 1,
+   "type": "<CreativeClassType.CLASS_SLOT: 0>"
+  },
+  "6": {
+   "slot": 1,
+   "type": "<CreativeClassType.CLASS_SLOT: 0>"
+  }
+ },
+ "verify": {
+  "FD_LampLight_042": {
+   "Color": "<E_CustomizableLight_Color.ORANGE: 4>",
+   "InitialState": "False",
+   "BrightnessScale": "0.6"
+  },
+  "FD_Flood_P3_2": {
+   "Color": "<E_CustomizableLight_Color.WHITE: 2>",
+   "InitialState": "False",
+   "BrightnessScale": "1.0"
+  },
+  "FD_MuralWash_4": {
+   "Color": "<E_CustomizableLight_Color.ORANGE: 4>",
+   "InitialState": "False",
+   "BrightnessScale": "0.4"
+  },
+  "FD_Sparks_wave_rail": {
+   "Visual_Effect": "<E_VFX_Effect.EMBERS: 50>",
+   "Enabled On Phase": "<EnabledOnPhase.NONE: 0>",
+   "SpawnRate": "1.5"
+  },
+  "FD_Sparks_flat_07": {
+   "Visual_Effect": "<E_VFX_Effect.EMBERS: 50>",
+   "Enabled On Phase": "<EnabledOnPhase.NONE: 0>",
+   "SpawnRate": "1.5"
+  }
+ },
+ "enum_dir": {
+  "C": [
+   "BLUE",
+   "CUSTOM",
+   "GREEN",
+   "ORANGE",
+   "PURPLE",
+   "RED",
+   "TEAL",
+   "TEAM_COLOR",
+   "WHITE",
+   "YELLOW"
+  ],
+  "AP": [
+   "GAME_COUNTDOWN",
+   "GAME_START",
+   "NONE",
+   "WAITING_FOR_PLAYERS"
+  ],
+  "EP": [
+   "ALWAYS",
+   "CREATE_ONLY",
+   "GAMEPLAY_ONLY",
+   "NONE",
+   "PRE_GAME_ONLY"
+  ]
+ }
+}

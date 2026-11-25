@@ -1,0 +1,30 @@
+{
+ "placed": [
+  "/Game/Environments/Helios/Props/Outdoor/Outdoor_FlowerBoxes_A/Meshes/SM_Outdoor_FlowerBoxPot_A",
+  "/Game/Environments/Helios/Foliage/BrimStone/Meshes/SM_Brimstone_DeadGrass_A",
+  "/Game/Environments/Helios/Foliage/BrimStone/Meshes/SM_Brimstone_DeadShrub_A",
+  "/Game/Environments/Asteria/Props/GrindRailVines/SM_Asteria_BalsaTree_Vines",
+  "/Game/Environments/Asteria/Props/GrindRailVines/SM_Asteria_BalsaTree_Vines2",
+  "/Game/Environments/Asteria/Foliage/Trees/RubberTree/Meshes/SM_Asteria_RubberTree_Vines",
+  "/Game/Environments/Asteria/Foliage/Trees/RubberTree/Meshes/SM_Asteria_RubberTree_Vines_var2",
+  "/Game/Environments/Asteria/Foliage/JunglePlants/IvyPlants/Meshes/SM_JunglePlants_IvyClimbingPlant_01",
+  "/Game/Environments/Asteria/Foliage/JunglePlants/IvyPlants/Meshes/SM_JunglePlants_IvyClimbingPlant_02",
+  "/Game/Environments/Asteria/Foliage/JunglePlants/IvyPlants/Meshes/SM_JunglePlants_IvyGroundPlant_01",
+  "/Game/Environments/Asteria/Foliage/JunglePlants/IvyPlants/Meshes/SM_JunglePlants_IvyHangingPlant_01",
+  "/Game/Environments/Asteria/Foliage/JunglePlants/IvyPlants/Meshes/SM_JunglePlants_IvyHangingPlant_02",
+  "/Game/Environments/Asteria/Foliage/ChaparralPlants/JacobsLadder/Meshes/SM_ChaparralPlant_JacobsLadder",
+  "/Game/Environments/Asteria/Foliage/Bushes/Thorn_Bushes/Meshes/SM_ThornBush_A",
+  "/Game/Environments/Asteria/Foliage/Bushes/Thorn_Bushes/Meshes/SM_ThornBush_C",
+  "/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Island/SM_Artemis_Sidewalk_05x2_Island_Grass_A",
+  "/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Island/SM_Artemis_Sidewalk_05x3_Island_Grass_A",
+  "/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_05x1_Grass_A",
+  "/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_05x2_Grass_A",
+  "/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_1x1_Grass_A",
+  "/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_1x1_Grass_B",
+  "/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_1x2_Grass_A",
+  "/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_1x2_Grass_B",
+  "/Game/Environments/Artemis/Sets/Sidewalk/Meshes/Grass/SM_Artemis_Sidewalk_InsideCorner_Grass_A"
+ ],
+ "dup": "FLT_PalmDup",
+ "src_cls": "FortStaticMeshActor"
+}

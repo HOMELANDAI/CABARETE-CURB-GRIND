@@ -1,0 +1,207 @@
+{
+ "imported": {
+  "CCG_Deck_BulldogCrest": {
+   "paths": 5,
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_BulldogCrest/CCG_Deck_BulldogCrest/StaticMeshes/CCG_Deck_BulldogCrest.CCG_Deck_BulldogCrest",
+     "extent": [
+      41.0,
+      11.0,
+      6.5
+     ],
+     "tris": 3112
+    }
+   ]
+  },
+  "CCG_Deck_SunriseScholar": {
+   "paths": 5,
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_SunriseScholar/CCG_Deck_SunriseScholar/StaticMeshes/CCG_Deck_SunriseScholar.CCG_Deck_SunriseScholar",
+     "extent": [
+      41.0,
+      10.9,
+      8.4
+     ],
+     "tris": 4194
+    }
+   ]
+  },
+  "CCG_Deck_HowlCouture": {
+   "paths": 5,
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_HowlCouture/CCG_Deck_HowlCouture/StaticMeshes/CCG_Deck_HowlCouture.CCG_Deck_HowlCouture",
+     "extent": [
+      41.0,
+      11.8,
+      5.4
+     ],
+     "tris": 2818
+    }
+   ]
+  },
+  "CCG_Deck_CarbonBark": {
+   "paths": 5,
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_CarbonBark/CCG_Deck_CarbonBark/StaticMeshes/CCG_Deck_CarbonBark.CCG_Deck_CarbonBark",
+     "extent": [
+      41.0,
+      11.9,
+      5.5
+     ],
+     "tris": 3136
+    }
+   ]
+  },
+  "CCG_Deck_CobaltTrail": {
+   "paths": 5,
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_CobaltTrail/CCG_Deck_CobaltTrail/StaticMeshes/CCG_Deck_CobaltTrail.CCG_Deck_CobaltTrail",
+     "extent": [
+      41.0,
+      17.0,
+      5.2
+     ],
+     "tris": 10992
+    }
+   ]
+  },
+  "CCG_Deck_RuffRoyale": {
+   "paths": 5,
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_RuffRoyale/CCG_Deck_RuffRoyale/StaticMeshes/CCG_Deck_RuffRoyale.CCG_Deck_RuffRoyale",
+     "extent": [
+      41.0,
+      10.7,
+      6.7
+     ],
+     "tris": 3030
+    }
+   ]
+  },
+  "CCG_Deck_PawshionAvenue": {
+   "paths": 5,
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_PawshionAvenue/CCG_Deck_PawshionAvenue/StaticMeshes/CCG_Deck_PawshionAvenue.CCG_Deck_PawshionAvenue",
+     "extent": [
+      41.0,
+      12.0,
+      4.5
+     ],
+     "tris": 5066
+    }
+   ]
+  },
+  "CCG_Deck_Pawsibility": {
+   "paths": 5,
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_Pawsibility/CCG_Deck_Pawsibility/StaticMeshes/CCG_Deck_Pawsibility.CCG_Deck_Pawsibility",
+     "extent": [
+      41.0,
+      11.0,
+      5.3
+     ],
+     "tris": 3342
+    }
+   ]
+  },
+  "CCG_Deck_Terrierbyte": {
+   "paths": 5,
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_Terrierbyte/CCG_Deck_Terrierbyte/StaticMeshes/CCG_Deck_Terrierbyte.CCG_Deck_Terrierbyte",
+     "extent": [
+      41.0,
+      11.1,
+      5.6
+     ],
+     "tris": 2686
+    }
+   ]
+  }
+ },
+ "tex": [
+  "CCG_Deck_BulldogCrest_normal",
+  "CCG_Deck_BulldogCrest_rm",
+  "CCG_Deck_SunriseScholar_normal",
+  "CCG_Deck_SunriseScholar_rm",
+  "CCG_Deck_HowlCouture_normal",
+  "CCG_Deck_HowlCouture_rm",
+  "CCG_Deck_CarbonBark_normal",
+  "CCG_Deck_CarbonBark_rm",
+  "CCG_Deck_CobaltTrail_normal",
+  "CCG_Deck_CobaltTrail_rm",
+  "CCG_Deck_RuffRoyale_normal",
+  "CCG_Deck_RuffRoyale_rm",
+  "CCG_Deck_PawshionAvenue_normal",
+  "CCG_Deck_PawshionAvenue_rm",
+  "CCG_Deck_Pawsibility_normal",
+  "CCG_Deck_Pawsibility_rm",
+  "CCG_Deck_Terrierbyte_normal",
+  "CCG_Deck_Terrierbyte_rm"
+ ],
+ "placed": [
+  [
+   "BulldogCrest",
+   14508,
+   17188,
+   300
+  ],
+  [
+   "SunriseScholar",
+   14490,
+   17214,
+   300
+  ],
+  [
+   "HowlCouture",
+   14473,
+   17241,
+   300
+  ],
+  [
+   "CarbonBark",
+   14455,
+   17268,
+   300
+  ],
+  [
+   "CobaltTrail",
+   14437,
+   17294,
+   300
+  ],
+  [
+   "RuffRoyale",
+   14419,
+   17321,
+   300
+  ],
+  [
+   "PawshionAvenue",
+   14401,
+   17347,
+   300
+  ],
+  [
+   "Pawsibility",
+   14383,
+   17374,
+   300
+  ],
+  [
+   "Terrierbyte",
+   14365,
+   17400,
+   300
+  ]
+ ],
+ "err": []
+}

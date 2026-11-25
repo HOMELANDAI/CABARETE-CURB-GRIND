@@ -1,0 +1,153 @@
+Begin Map Name=/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind
+   Begin Level NAME=PersistentLevel
+      Begin Actor Class=/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C Name=BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561 Archetype="/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C'/Game/Creative/Devices/Lights/BP_CustomizableLight.Default__BP_CustomizableLight_C'" ActorFolderPath="None" ExportPath="/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/Game/Creative/Devices/Lights/BP_CustomizableLight.Default__BP_CustomizableLight_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/Game/Creative/Devices/Lights/BP_CustomizableLight.Default__BP_CustomizableLight_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/Game/Creative/Devices/Lights/BP_CustomizableLight.Default__BP_CustomizableLight_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.ToyOptionsComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype="/Script/FortniteGame.FortMinigameProgressComponent'/Game/Creative/BluePrints/BuildingToyProp.BuildingToyProp_C:FortMinigameProgress_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.FortMinigameProgress'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/BluePrints/BuildingToyProp.BuildingToyProp_C:VisibleInGameComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.VisibleInGameComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="ActivateWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C:ActivateWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.ActivateWhenReceived'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="DeactivateWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C:DeactivateWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.DeactivateWhenReceived'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="ToggleWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C:ToggleWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.ToggleWhenReceived'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="ResetWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C:ResetWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.ResetWhenReceived'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetToTeamColorWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C:SetToTeamColorWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.SetToTeamColorWhenReceived'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameLogicComponent Name="FortMinigameLogic" Archetype="/Script/FortniteGame.FortMinigameLogicComponent'/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C:FortMinigameLogic_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortMinigameLogicComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.FortMinigameLogic'"
+         End Object
+         Begin Object Class=/Game/Creative/BluePrints/ColorComponet/CreativeColorComponent.CreativeColorComponent_C Name="ColorComponent" Archetype="/Game/Creative/BluePrints/ColorComponet/CreativeColorComponent.CreativeColorComponent_C'/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C:ColorComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/BluePrints/ColorComponet/CreativeColorComponent.CreativeColorComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.ColorComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnWhenActivated" Archetype="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C:TransmitOnWhenActivated_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.TransmitOnWhenActivated'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnWhenDeactivated" Archetype="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C:TransmitOnWhenDeactivated_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.TransmitOnWhenDeactivated'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.StaticMeshComponent0'"
+            CachedMaxDrawDistance=2800.000000
+            OnComponentPhysicsStateChanged=()
+            RelativeLocation=(X=7449.900000,Y=9506.200000,Z=612.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.ToyOptionsComponent'"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="ActivateOnPhase",PropertyData="None"),(PropertyName="BaseVisible",PropertyData="True"),(PropertyName="BrightnessScale",PropertyData="0.500000"),(PropertyName="Color",PropertyData="Orange"),(PropertyName="ColorChangeTime",PropertyData="2.000000"),(PropertyName="InitialState",PropertyData="True"),(PropertyName="InitialTeamColor",PropertyData="(TeamType=None,TeamIndex=1)"),(PropertyName="LabelOverride",PropertyData="FD_Flood_P1_1"),(PropertyName="ToggleOnSequencer",PropertyData="False"),(PropertyName="TurnOffInteractTime"),(PropertyName="TurnOffTeam",PropertyData="(TeamType=All,TeamIndex=1)"),(PropertyName="TurnOnInteractTime"),(PropertyName="TurnOnTeam",PropertyData="(TeamType=All,TeamIndex=1)")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.FortMinigameProgress'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.VisibleInGameComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ActivateWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.ActivateWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DeactivateWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.DeactivateWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ToggleWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.ToggleWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ResetWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.ResetWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetToTeamColorWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.SetToTeamColorWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameLogic" ExportPath="/Script/FortniteGame.FortMinigameLogicComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.FortMinigameLogic'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ColorComponent" ExportPath="/Game/Creative/BluePrints/ColorComponet/CreativeColorComponent.CreativeColorComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.ColorComponent'"
+            DesiredColorChannelAdjustements=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+            PreviousColorChannelAdjustements=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+            TeamColorIndex=-1
+            ColorMapKeyOption=NewEnumerator4
+            ColorChannelsAdjustmentsCurrentTime=2.000000
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnWhenActivated" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.TransmitOnWhenActivated'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnWhenDeactivated" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.BP_CustomizableLight_C_UAID_BC38988AD19DCD1503_1245353561.TransmitOnWhenDeactivated'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         TransmitOnWhenDeactivated="TransmitOnWhenDeactivated"
+         TransmitOnWhenActivated="TransmitOnWhenActivated"
+         ColorComponent="ColorComponent"
+         FortMinigameLogic="FortMinigameLogic"
+         SetToTeamColorWhenReceived="SetToTeamColorWhenReceived"
+         ResetWhenReceived="ResetWhenReceived"
+         ToggleWhenReceived="ToggleWhenReceived"
+         DeactivateWhenReceived="DeactivateWhenReceived"
+         ActivateWhenReceived="ActivateWhenReceived"
+         TeamColorIndex=-1
+         VisibleInGameComponent="VisibleInGameComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         MyGuid=0228B6114BE8830D03393FA0ABCEF358
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000CC292E3F
+         LabelOverride="FD_Flood_P1_1"
+         NetDormancy=DORM_DormantAll
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FD_Flood_P1_1"
+         BlueprintCreatedComponents(0)="ToyOptionsComponent"
+         BlueprintCreatedComponents(1)="FortMinigameProgress"
+         BlueprintCreatedComponents(2)="VisibleInGameComponent"
+         BlueprintCreatedComponents(3)="ActivateWhenReceived"
+         BlueprintCreatedComponents(4)="DeactivateWhenReceived"
+         BlueprintCreatedComponents(5)="ToggleWhenReceived"
+         BlueprintCreatedComponents(6)="ResetWhenReceived"
+         BlueprintCreatedComponents(7)="SetToTeamColorWhenReceived"
+         BlueprintCreatedComponents(8)="FortMinigameLogic"
+         BlueprintCreatedComponents(9)="ColorComponent"
+         BlueprintCreatedComponents(10)="TransmitOnWhenActivated"
+         BlueprintCreatedComponents(11)="TransmitOnWhenDeactivated"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

@@ -1,0 +1,14 @@
+{
+ "n_sel": 1,
+ "label": "CCG-Verse-ccg rail",
+ "class": "/CRD_VerseDevices/VerseDevice.VerseDevice_C",
+ "full": "VerseDevice_C /9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.VerseDevice_C_UAID_BC38988AD19D8F1503_1193462552",
+ "get_RailId": "ERR ScriptDevice: Failed to find property 'RailId' for attribute 'RailId' on 'VerseDevice_C'",
+ "get_RideHeightCm": "ERR ScriptDevice: Failed to find property 'RideHeightCm' for attribute 'RideHeightCm' on 'VerseDevice_C'",
+ "get_IsSteel": "ERR ScriptDevice: Failed to find property 'IsSteel' for attribute 'IsSteel' on 'VerseDevice_C'",
+ "get_RailPoints": "ERR ScriptDevice: Failed to find property 'RailPoints' for attribute 'RailPoints' on 'VerseDevice_C'",
+ "set_RailId": "ERR ScriptDevice: Failed to find property 'RailId' for attribute 'RailId' on 'VerseDevice_C'",
+ "dup_class": "/CRD_VerseDevices/VerseDevice.VerseDevice_C",
+ "dup_label": "CCG-Verse-ccg rail2",
+ "dup_err": "ScriptDevice: Failed to find property 'RailId' for attribute 'RailId' on 'VerseDevice_C'"
+}

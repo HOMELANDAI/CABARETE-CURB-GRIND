@@ -1,0 +1,9 @@
+{
+ "cv_class": "/CRD_Volume/_Verse.volume_device",
+ "cv_saved": "<Object '/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_Volume_C_UAID_BC38988AD19D8F1503_1988141178' (0x000001F9DB9CDC00) Class 'Device_Volume_C'>",
+ "VD": "/CRD_Volume/_Verse.volume_device",
+ "mv_len0": 0,
+ "mv_after": [
+  "<Object '/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_Volume_C_UAID_BC38988AD19D8F1503_1988141178' (0x000001F9DB9CDC00) Class 'Device_Volume_C'>"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "palms": {},
+ "water": {
+  "normal_candidates": [
+   "/Game/Athena/Apollo/Water/Textures/02_Rounded/03_WaterFoam_AccentSwirls_N",
+   "/Game/Effects/Fort_Effects/Textures/Water/T_waterSplash_R_N",
+   "/Game/Effects/Fort_Effects/Textures/Water/T_waterSplash_N",
+   "/Game/Effects/Fort_Effects/Textures/Water/T_water_splash_04_n",
+   "/Game/Effects/Fort_Effects/Textures/WaterFoam0001_19_N",
+   "/Game/Athena/WinterArt/Textures/T_FrozenWaterfall_N",
+   "/Game/Environments/Apollo/Sets/Farm/Props/Textures/T_Farm_WaterWheel_01_N",
+   "/Game/Environments/Apollo/Sets/Fortilla/Props/Textures/T_Fortilla_WaterTower_01_N",
+   "/Game/Environments/Apollo/Sets/Industrial/Props/Textures/T_IND_WaterPipe_01_N",
+   "/Game/Environments/Apollo/Sets/Industrial/Props/Textures/T_IND_WaterPump_01_N",
+   "/Game/Environments/Apollo/Sets/Industrial/Props/Textures/T_IND_WaterTank_01_N",
+   "/Game/Athena/Apollo/Water/Textures/02_Rounded/WaterFoam_FrontFoam_N",
+   "/Game/Athena/Apollo/Water/Textures/02_Rounded/03_WaterFoam_Veroni_base_N"
+  ],
+  "assigned": 1,
+  "normal": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Materials/T_Water_Waves_N.T_Water_Waves_N"
+ },
+ "parallax": {},
+ "err": [],
+ "water_rebuilt": true,
+ "palm_meshes": {
+  "SM_PalmTree_B": 15,
+  "SM_PalmTree_A": 11,
+  "SM_PalmTree_C": 9
+ }
+}

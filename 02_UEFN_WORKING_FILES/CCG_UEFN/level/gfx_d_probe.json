@@ -1,0 +1,220 @@
+{
+ "n": 33,
+ "rows": [
+  {
+   "name": "MaterialExpressionWorldPosition_0",
+   "cls": "MaterialExpressionWorldPosition",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionTextureSampleParameter2D_3",
+   "cls": "MaterialExpressionTextureSampleParameter2D",
+   "inputs": {},
+   "param": "WetMask",
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionTextureSampleParameter2D_2",
+   "cls": "MaterialExpressionTextureSampleParameter2D",
+   "inputs": {},
+   "param": "ORM",
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionTextureSampleParameter2D_1",
+   "cls": "MaterialExpressionTextureSampleParameter2D",
+   "inputs": {},
+   "param": "Normal",
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionTextureSampleParameter2D_0",
+   "cls": "MaterialExpressionTextureSampleParameter2D",
+   "inputs": {},
+   "param": "BaseColor",
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionTextureCoordinate_0",
+   "cls": "MaterialExpressionTextureCoordinate",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionSubtract_0",
+   "cls": "MaterialExpressionSubtract",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionScalarParameter_2",
+   "cls": "MaterialExpressionScalarParameter",
+   "inputs": {},
+   "param": "WetnessMax",
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionScalarParameter_1",
+   "cls": "MaterialExpressionScalarParameter",
+   "inputs": {},
+   "param": "WetScale",
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionScalarParameter_0",
+   "cls": "MaterialExpressionScalarParameter",
+   "inputs": {},
+   "param": "Tiling",
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionSaturate_0",
+   "cls": "MaterialExpressionSaturate",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionMultiply_5",
+   "cls": "MaterialExpressionMultiply",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionMultiply_4",
+   "cls": "MaterialExpressionMultiply",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionMultiply_3",
+   "cls": "MaterialExpressionMultiply",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionMultiply_2",
+   "cls": "MaterialExpressionMultiply",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionMultiply_1",
+   "cls": "MaterialExpressionMultiply",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionMultiply_0",
+   "cls": "MaterialExpressionMultiply",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionLinearInterpolate_3",
+   "cls": "MaterialExpressionLinearInterpolate",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionLinearInterpolate_2",
+   "cls": "MaterialExpressionLinearInterpolate",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionLinearInterpolate_1",
+   "cls": "MaterialExpressionLinearInterpolate",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionLinearInterpolate_0",
+   "cls": "MaterialExpressionLinearInterpolate",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionDivide_0",
+   "cls": "MaterialExpressionDivide",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionConstant3Vector_0",
+   "cls": "MaterialExpressionConstant3Vector",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionConstant_5",
+   "cls": "MaterialExpressionConstant",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionConstant_4",
+   "cls": "MaterialExpressionConstant",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionConstant_3",
+   "cls": "MaterialExpressionConstant",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionConstant_2",
+   "cls": "MaterialExpressionConstant",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionConstant_1",
+   "cls": "MaterialExpressionConstant",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionConstant_0",
+   "cls": "MaterialExpressionConstant",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionComponentMask_0",
+   "cls": "MaterialExpressionComponentMask",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionMultiply_7",
+   "cls": "MaterialExpressionMultiply",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionMultiply_6",
+   "cls": "MaterialExpressionMultiply",
+   "inputs": {},
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  },
+  {
+   "name": "MaterialExpressionCollectionParameter_0",
+   "cls": "MaterialExpressionCollectionParameter",
+   "inputs": {},
+   "param": "Wetness",
+   "inputs_err": "get_inputs_for_material_expression() required argument 'material_expression' (po"
+  }
+ ],
+ "mel": [
+  "get_input_node_output_name_for_material_expression",
+  "get_inputs_for_material_expression",
+  "get_inputs_for_material_function_expression",
+  "get_material_expression_input_names",
+  "get_material_expression_input_types",
+  "get_material_property_input_node",
+  "get_material_property_input_node_output_name"
+ ]
+}

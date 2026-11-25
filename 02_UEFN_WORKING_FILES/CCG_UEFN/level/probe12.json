@@ -1,0 +1,20 @@
+{
+ "after_resize": 3,
+ "imp_0": [
+  true,
+  "(__verse_0x51F8FD2F_X=100.000000,__verse_0x349F4197_Y=200.000000,__verse_0xDA30F485_Z=300.000000)"
+ ],
+ "imp_1": [
+  true,
+  "(__verse_0x51F8FD2F_X=400.000000,__verse_0x349F4197_Y=500.000000,__verse_0xDA30F485_Z=600.000000)"
+ ],
+ "imp_2": [
+  true,
+  "(__verse_0x51F8FD2F_X=700.000000,__verse_0x349F4197_Y=800.000000,__verse_0xDA30F485_Z=900.000000)"
+ ],
+ "readback": [
+  "(__verse_0x51F8FD2F_X=100.000000,__verse_0x349F4197_Y=200.000000,__verse_0xDA30F485_Z=300.000000)",
+  "(__verse_0x51F8FD2F_X=400.000000,__verse_0x349F4197_Y=500.000000,__verse_0xDA30F485_Z=600.000000)",
+  "(__verse_0x51F8FD2F_X=700.000000,__verse_0x349F4197_Y=800.000000,__verse_0xDA30F485_Z=900.000000)"
+ ]
+}

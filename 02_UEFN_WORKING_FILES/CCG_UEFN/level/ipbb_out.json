@@ -1,0 +1,46 @@
+{
+ "imported": [],
+ "mis": [
+  "MI_Sign_Billboard_PPA_Microdrama",
+  "MI_Sign_Billboard_HAI_Frequency",
+  "MI_Sign_Billboard_XPets"
+ ],
+ "spawned": [
+  [
+   "L_Billboard_4",
+   [
+    40439.2,
+    24173.3,
+    71.9
+   ],
+   -3.89,
+   2
+  ],
+  [
+   "L_Billboard_5",
+   [
+    10797.6,
+    14478.9,
+    131.9
+   ],
+   46.36,
+   2
+  ],
+  [
+   "L_Billboard_6",
+   [
+    70288.9,
+    18547.4,
+    226.2
+   ],
+   -10.73,
+   2
+  ]
+ ],
+ "errors": [],
+ "ref_mats": [
+  "MI_Steel",
+  "MI_Black",
+  "MI_Sign_Billboard_HomelandAI"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "L_Billboard_4": {
+  "hit": "L_Sig_Chevron_5",
+  "moved_cm": 2000,
+  "loc": [
+   42434.6,
+   24037.6,
+   71.9
+  ]
+ },
+ "L_Billboard_5": {
+  "hit": "L_Sig_TwinTwist_B",
+  "moved_cm": 15500,
+  "loc": [
+   21494.5,
+   25696.1,
+   131.9
+  ]
+ },
+ "L_Billboard_6": {
+  "hit": "L_Park_P3_Mojito",
+  "moved_cm": -11000,
+  "loc": [
+   59481.2,
+   20595.4,
+   226.2
+  ]
+ }
+}

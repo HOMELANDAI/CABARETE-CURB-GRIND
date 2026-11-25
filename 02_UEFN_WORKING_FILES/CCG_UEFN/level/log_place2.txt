@@ -1,0 +1,8 @@
+cleaned 809
+device classes: {'volume': 'Device_Volume_C', 'trigger': 'Device_Trigger_V2_C', 'barrier': 'Device_Barrier_V2_C', 'hud': 'Device_HUDMessage_V2_C', 'endgame': 'Device_GameEnd_C', 'button': 'Device_Button_V2_C', 'granter': 'Device_ItemGranter_V2_C', 'classdesigner': 'Device_ClassDesigner_V2_C', 'classselector': 'Device_ClassSelector_V2_C', 'light': 'BP_CustomizableLight_C', 'daysequence': 'BP_DaySequenceModifier_Device_C', 'vfx': 'Device_VFXSpawner_V2_C'}
+wrapper classes: ['Devices_creative_device', 'Devices_device_event_player_creative_device', 'Devices_function_parameter_device', 'NexusFramework-example_nexus_device', 'NexusFramework-nexus_test_device', 'VerseFramework-log_test_device', 'VerseFramework-test_device', 'VerseFramework-test_runner_device', 'accolades_device', 'advanced_storm_beacon_device', 'advanced_storm_controller_device', 'ai_patrol_path_device', 'air_vent_device', 'analytics_device', 'animated_mesh_device', 'attribute_evaluator_device', 'audio_mixer_device', 'audio_player_device', 'automated_turret_device', 'ball_spawner_device', 'bank_vault_device', 'barrier_device', 'base_item_spawner_device', 'base_melee_device', 'basic_storm_controller_device', 'beacon_device', 'billboard_device', 'boost_pad_rocketracing_device', 'bouncer_device', 'button_device', 'cable_splitter_device', 'camera_focus_device', 'campfire_device', 'capture_area_device', 'capture_item_spawner_device', 'carryable_spawner_device', 'chair_device', 'changing_booth_device', 'channel_device', 'character_device']
+mesh actors 372
+rails 102
+inner verse objects 107 of 107
+fails total 0
+DONE_PLACE2 actors 372 rails 102 vols 14 lights 112 verse 107

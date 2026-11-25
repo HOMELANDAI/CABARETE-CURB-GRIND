@@ -1,0 +1,72 @@
+{
+ "probe": {
+  "lamp": {
+   "Color": [
+    "E_CustomizableLight_Color",
+    "<E_CustomizableLight_Color.ORANGE: 4>"
+   ],
+   "InitialState": [
+    "bool",
+    "False"
+   ],
+   "BrightnessScale": [
+    "float",
+    "0.6"
+   ],
+   "ActivateOnPhase": [
+    "ActivateOnPhase",
+    "<ActivateOnPhase.NONE: 0>"
+   ],
+   "ColorChangeTime": [
+    "float",
+    "2.0"
+   ],
+   "BaseVisible": [
+    "bool",
+    "True"
+   ]
+  },
+  "vfx": {
+   "Visual_Effect": [
+    "E_VFX_Effect",
+    "<E_VFX_Effect.EMBERS: 50>"
+   ],
+   "EffectType": [
+    "E_EffectType",
+    "<E_EffectType.CONTINUOUS: 0>"
+   ],
+   "Enabled On Phase": [
+    "EnabledOnPhase",
+    "<EnabledOnPhase.NONE: 0>"
+   ],
+   "EnabledOnPhase": "ERR FortCreativeDeviceProp: Failed to find property 'EnabledOnPh",
+   "Colorize VFX": [
+    "bool",
+    "False"
+   ],
+   "SpawnRate": [
+    "float",
+    "1.0"
+   ],
+   "Sound_Effect": [
+    "E_SoundEffect",
+    "<E_SoundEffect.DEFAULT: 0>"
+   ],
+   "EnableOnReset": [
+    "bool",
+    "True"
+   ]
+  }
+ },
+ "copied": {},
+ "errors": [],
+ "classes": {
+  "0": "<Struct 'CreativeClassOption' (0x000001E652D7A150) {class_type: ClassSlot, class",
+  "1": "<Struct 'CreativeClassOption' (0x000001E652D7D150) {class_type: ClassSlot, class",
+  "2": "<Struct 'CreativeClassOption' (0x000001E6533F1150) {class_type: ClassSlot, class",
+  "3": "<Struct 'CreativeClassOption' (0x000001E652D7B950) {class_type: ClassSlot, class",
+  "4": "<Struct 'CreativeClassOption' (0x000001E5AA984150) {class_type: ClassSlot, class",
+  "5": "<Struct 'CreativeClassOption' (0x000001E652D7E950) {class_type: ClassSlot, class",
+  "6": "<Struct 'CreativeClassOption' (0x000001E6533F2950) {class_type: ClassSlot, class"
+ }
+}

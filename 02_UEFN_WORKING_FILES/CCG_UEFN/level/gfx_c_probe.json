@@ -1,0 +1,133 @@
+{
+ "bindings": [
+  {
+   "name": "SkyLightComponent0",
+   "id": "<Struct 'Guid' (0x000001D2A7138A90) {}>",
+   "parent": "LR_SkyLight",
+   "tracks": [
+    "MovieSceneFloatTrack:Intensity",
+    "MovieSceneColorTrack:LightColor"
+   ],
+   "bound": [
+    "LevelSequenceEditorBlueprintLibrary: Failed to convert param"
+   ]
+  },
+  {
+   "name": "SkyAtmosphereComponent",
+   "id": "<Struct 'Guid' (0x000001D2A7134360) {}>",
+   "parent": "LR_SkyAtmosphere",
+   "tracks": [
+    "MovieSceneFloatTrack:MieScatteringScale",
+    "MovieSceneFloatTrack:MieAbsorptionScale",
+    "MovieSceneFloatTrack:AerialPespectiveViewDistanceScale",
+    "MovieSceneFloatTrack:MieAnisotropy"
+   ],
+   "bound": [
+    "LevelSequenceEditorBlueprintLibrary: Failed to convert param"
+   ]
+  },
+  {
+   "name": "LightComponent0",
+   "id": "<Struct 'Guid' (0x000001D2A7138DA0) {}>",
+   "parent": "LR_Sun",
+   "tracks": [
+    "MovieSceneFloatTrack:Intensity",
+    "MovieSceneFloatTrack:Temperature",
+    "MovieSceneFloatTrack:LightSourceAngle",
+    "MovieSceneFloatTrack:VolumetricScatteringIntensity",
+    "MovieSceneFloatTrack:BloomScale",
+    "MovieSceneBoolTrack:bEnableLightShaftOcclusion"
+   ],
+   "bound": [
+    "LevelSequenceEditorBlueprintLibrary: Failed to convert param"
+   ]
+  },
+  {
+   "name": "LR_SkyAtmosphere",
+   "id": "<Struct 'Guid' (0x000001D2A713F230) {}>",
+   "parent": "",
+   "tracks": [],
+   "bound": [
+    "LevelSequenceEditorBlueprintLibrary: Failed to convert param"
+   ]
+  },
+  {
+   "name": "LR_Fog",
+   "id": "<Struct 'Guid' (0x000001D2A7131E30) {}>",
+   "parent": "",
+   "tracks": [],
+   "bound": [
+    "LevelSequenceEditorBlueprintLibrary: Failed to convert param"
+   ]
+  },
+  {
+   "name": "PP_CCG_Grade",
+   "id": "<Struct 'Guid' (0x000001D2A7131540) {}>",
+   "parent": "",
+   "tracks": [
+    "MovieSceneFloatTrack:Settings.BloomIntensity",
+    "MovieSceneFloatTrack:Settings.BloomThreshold",
+    "MovieSceneFloatTrack:Settings.VignetteIntensity",
+    "MovieSceneFloatTrack:Settings.LensFlareIntensity",
+    "MovieSceneFloatTrack:Settings.AutoExposureBias",
+    "MovieSceneFloatTrack:Settings.WhiteTemp"
+   ],
+   "bound": [
+    "LevelSequenceEditorBlueprintLibrary: Failed to convert param"
+   ]
+  },
+  {
+   "name": "LR_Sun",
+   "id": "<Struct 'Guid' (0x000001D2A71300A0) {}>",
+   "parent": "",
+   "tracks": [
+    "MovieScene3DTransformTrack:Transform"
+   ],
+   "bound": [
+    "LevelSequenceEditorBlueprintLibrary: Failed to convert param"
+   ]
+  },
+  {
+   "name": "HeightFogComponent0",
+   "id": "<Struct 'Guid' (0x000001D2A71302A0) {}>",
+   "parent": "LR_Fog",
+   "tracks": [
+    "MovieSceneFloatTrack:FogDensity",
+    "MovieSceneFloatTrack:FogHeightFalloff",
+    "MovieSceneFloatTrack:StartDistance",
+    "MovieSceneFloatTrack:FogMaxOpacity",
+    "MovieSceneFloatTrack:DirectionalInscatteringExponent",
+    "MovieSceneFloatTrack:VolumetricFogExtinctionScale",
+    "MovieSceneColorTrack:FogInscatteringLuminance",
+    "MovieSceneColorTrack:DirectionalInscatteringLuminance",
+    "MovieSceneFloatTrack:SecondFogData.FogDensity"
+   ],
+   "bound": [
+    "LevelSequenceEditorBlueprintLibrary: Failed to convert param"
+   ]
+  },
+  {
+   "name": "LR_SkyLight",
+   "id": "<Struct 'Guid' (0x000001D2A71310A0) {}>",
+   "parent": "",
+   "tracks": [],
+   "bound": [
+    "LevelSequenceEditorBlueprintLibrary: Failed to convert param"
+   ]
+  }
+ ],
+ "sun": {
+  "0": {
+   "rot": "<Struct 'Rotator' (0x000001D16CEA28B0) {pitch: -62.000000, yaw: 150.000000, roll: -0.000000}>",
+   "int": 6.0,
+   "temp": 6200.0,
+   "fog": 0.006000000052154064
+  },
+  "180": {
+   "rot": "<Struct 'Rotator' (0x000001D16CEA28B0) {pitch: -62.000000, yaw: 150.000000, roll: -0.000000}>",
+   "int": 6.0,
+   "temp": 6200.0,
+   "fog": 0.006000000052154064
+  }
+ }
+}

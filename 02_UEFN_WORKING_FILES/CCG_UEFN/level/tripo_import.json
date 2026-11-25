@@ -1,0 +1,173 @@
+{
+ "imported": {
+  "CCG_Deck_EmeraldPawKata": {
+   "paths": [
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_EmeraldPawKata/CCG_Deck_EmeraldPawKata/Textures/CCG_Deck_EmeraldPawKata_normal.CCG_Deck_EmeraldPawKata_normal",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_EmeraldPawKata/CCG_Deck_EmeraldPawKata/Textures/CCG_Deck_EmeraldPawKata_basecolor.CCG_Deck_EmeraldPawKata_basecolor",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_EmeraldPawKata/CCG_Deck_EmeraldPawKata/Textures/CCG_Deck_EmeraldPawKata_rm.CCG_Deck_EmeraldPawKata_rm",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_EmeraldPawKata/CCG_Deck_EmeraldPawKata/Materials/M_Deck_EmeraldPawKata.M_Deck_EmeraldPawKata",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_EmeraldPawKata/CCG_Deck_EmeraldPawKata/StaticMeshes/CCG_Deck_EmeraldPawKata.CCG_Deck_EmeraldPawKata"
+   ],
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_EmeraldPawKata/CCG_Deck_EmeraldPawKata/StaticMeshes/CCG_Deck_EmeraldPawKata.CCG_Deck_EmeraldPawKata",
+     "extent": [
+      41.0,
+      16.360017776489258,
+      7.75592041015625
+     ],
+     "origin": [
+      0.0,
+      0.0,
+      7.75592041015625
+     ],
+     "mats": [
+      "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_EmeraldPawKata/CCG_Deck_EmeraldPawKata/Materials/M_Deck_EmeraldPawKata.M_Deck_EmeraldPawKata"
+     ],
+     "tris": 9886
+    }
+   ]
+  },
+  "CCG_Deck_GoldenPawStrike": {
+   "paths": [
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_GoldenPawStrike/CCG_Deck_GoldenPawStrike/Textures/CCG_Deck_GoldenPawStrike_normal.CCG_Deck_GoldenPawStrike_normal",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_GoldenPawStrike/CCG_Deck_GoldenPawStrike/Textures/CCG_Deck_GoldenPawStrike_basecolor.CCG_Deck_GoldenPawStrike_basecolor",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_GoldenPawStrike/CCG_Deck_GoldenPawStrike/Textures/CCG_Deck_GoldenPawStrike_rm.CCG_Deck_GoldenPawStrike_rm",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_GoldenPawStrike/CCG_Deck_GoldenPawStrike/Materials/M_Deck_GoldenPawStrike.M_Deck_GoldenPawStrike",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_GoldenPawStrike/CCG_Deck_GoldenPawStrike/StaticMeshes/CCG_Deck_GoldenPawStrike.CCG_Deck_GoldenPawStrike"
+   ],
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_GoldenPawStrike/CCG_Deck_GoldenPawStrike/StaticMeshes/CCG_Deck_GoldenPawStrike.CCG_Deck_GoldenPawStrike",
+     "extent": [
+      41.0,
+      16.24074363708496,
+      10.023947715759277
+     ],
+     "origin": [
+      0.0,
+      0.0,
+      10.023947715759277
+     ],
+     "mats": [
+      "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_GoldenPawStrike/CCG_Deck_GoldenPawStrike/Materials/M_Deck_GoldenPawStrike.M_Deck_GoldenPawStrike"
+     ],
+     "tris": 11504
+    }
+   ]
+  },
+  "CCG_Deck_IvoryEngraveSupreme": {
+   "paths": [
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryEngraveSupreme/CCG_Deck_IvoryEngraveSupreme/Textures/CCG_Deck_IvoryEngraveSupreme_normal.CCG_Deck_IvoryEngraveSupreme_normal",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryEngraveSupreme/CCG_Deck_IvoryEngraveSupreme/Textures/CCG_Deck_IvoryEngraveSupreme_basecolor.CCG_Deck_IvoryEngraveSupreme_basecolor",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryEngraveSupreme/CCG_Deck_IvoryEngraveSupreme/Textures/CCG_Deck_IvoryEngraveSupreme_rm.CCG_Deck_IvoryEngraveSupreme_rm",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryEngraveSupreme/CCG_Deck_IvoryEngraveSupreme/Materials/M_Deck_IvoryEngraveSupreme.M_Deck_IvoryEngraveSupreme",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryEngraveSupreme/CCG_Deck_IvoryEngraveSupreme/StaticMeshes/CCG_Deck_IvoryEngraveSupreme.CCG_Deck_IvoryEngraveSupreme"
+   ],
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryEngraveSupreme/CCG_Deck_IvoryEngraveSupreme/StaticMeshes/CCG_Deck_IvoryEngraveSupreme.CCG_Deck_IvoryEngraveSupreme",
+     "extent": [
+      41.000003814697266,
+      16.912405014038086,
+      7.346336364746094
+     ],
+     "origin": [
+      0.0,
+      0.0,
+      7.346336364746094
+     ],
+     "mats": [
+      "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryEngraveSupreme/CCG_Deck_IvoryEngraveSupreme/Materials/M_Deck_IvoryEngraveSupreme.M_Deck_IvoryEngraveSupreme"
+     ],
+     "tris": 12372
+    }
+   ]
+  },
+  "CCG_Deck_IvoryGridSupremeRemix": {
+   "paths": [
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryGridSupremeRemix/CCG_Deck_IvoryGridSupremeRemix/Textures/CCG_Deck_IvoryGridSupremeRemix_normal.CCG_Deck_IvoryGridSupremeRemix_normal",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryGridSupremeRemix/CCG_Deck_IvoryGridSupremeRemix/Textures/CCG_Deck_IvoryGridSupremeRemix_basecolor.CCG_Deck_IvoryGridSupremeRemix_basecolor",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryGridSupremeRemix/CCG_Deck_IvoryGridSupremeRemix/Textures/CCG_Deck_IvoryGridSupremeRemix_rm.CCG_Deck_IvoryGridSupremeRemix_rm",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryGridSupremeRemix/CCG_Deck_IvoryGridSupremeRemix/Materials/M_Deck_IvoryGridSupremeRemix.M_Deck_IvoryGridSupremeRemix",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryGridSupremeRemix/CCG_Deck_IvoryGridSupremeRemix/StaticMeshes/CCG_Deck_IvoryGridSupremeRemix.CCG_Deck_IvoryGridSupremeRemix"
+   ],
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryGridSupremeRemix/CCG_Deck_IvoryGridSupremeRemix/StaticMeshes/CCG_Deck_IvoryGridSupremeRemix.CCG_Deck_IvoryGridSupremeRemix",
+     "extent": [
+      41.0,
+      16.10417366027832,
+      7.893815517425537
+     ],
+     "origin": [
+      0.0,
+      0.0,
+      7.893815517425537
+     ],
+     "mats": [
+      "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryGridSupremeRemix/CCG_Deck_IvoryGridSupremeRemix/Materials/M_Deck_IvoryGridSupremeRemix.M_Deck_IvoryGridSupremeRemix"
+     ],
+     "tris": 5302
+    }
+   ]
+  },
+  "CCG_Deck_IvoryMandalaFlow": {
+   "paths": [
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryMandalaFlow/CCG_Deck_IvoryMandalaFlow/Textures/CCG_Deck_IvoryMandalaFlow_normal.CCG_Deck_IvoryMandalaFlow_normal",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryMandalaFlow/CCG_Deck_IvoryMandalaFlow/Textures/CCG_Deck_IvoryMandalaFlow_basecolor.CCG_Deck_IvoryMandalaFlow_basecolor",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryMandalaFlow/CCG_Deck_IvoryMandalaFlow/Textures/CCG_Deck_IvoryMandalaFlow_rm.CCG_Deck_IvoryMandalaFlow_rm",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryMandalaFlow/CCG_Deck_IvoryMandalaFlow/Materials/M_Deck_IvoryMandalaFlow.M_Deck_IvoryMandalaFlow",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryMandalaFlow/CCG_Deck_IvoryMandalaFlow/StaticMeshes/CCG_Deck_IvoryMandalaFlow.CCG_Deck_IvoryMandalaFlow"
+   ],
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryMandalaFlow/CCG_Deck_IvoryMandalaFlow/StaticMeshes/CCG_Deck_IvoryMandalaFlow.CCG_Deck_IvoryMandalaFlow",
+     "extent": [
+      41.0,
+      17.103649139404297,
+      7.47203254699707
+     ],
+     "origin": [
+      0.0,
+      0.0,
+      7.47203254699707
+     ],
+     "mats": [
+      "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_IvoryMandalaFlow/CCG_Deck_IvoryMandalaFlow/Materials/M_Deck_IvoryMandalaFlow.M_Deck_IvoryMandalaFlow"
+     ],
+     "tris": 12438
+    }
+   ]
+  },
+  "CCG_Deck_ShadowRuffCombat": {
+   "paths": [
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_ShadowRuffCombat/CCG_Deck_ShadowRuffCombat/Textures/CCG_Deck_ShadowRuffCombat_normal.CCG_Deck_ShadowRuffCombat_normal",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_ShadowRuffCombat/CCG_Deck_ShadowRuffCombat/Textures/CCG_Deck_ShadowRuffCombat_basecolor.CCG_Deck_ShadowRuffCombat_basecolor",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_ShadowRuffCombat/CCG_Deck_ShadowRuffCombat/Textures/CCG_Deck_ShadowRuffCombat_rm.CCG_Deck_ShadowRuffCombat_rm",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_ShadowRuffCombat/CCG_Deck_ShadowRuffCombat/Materials/M_Deck_ShadowRuffCombat.M_Deck_ShadowRuffCombat",
+    "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_ShadowRuffCombat/CCG_Deck_ShadowRuffCombat/StaticMeshes/CCG_Deck_ShadowRuffCombat.CCG_Deck_ShadowRuffCombat"
+   ],
+   "meshes": [
+    {
+     "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_ShadowRuffCombat/CCG_Deck_ShadowRuffCombat/StaticMeshes/CCG_Deck_ShadowRuffCombat.CCG_Deck_ShadowRuffCombat",
+     "extent": [
+      41.0,
+      21.59078598022461,
+      9.323759078979492
+     ],
+     "origin": [
+      0.0,
+      0.0,
+      9.323759078979492
+     ],
+     "mats": [
+      "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Deck_ShadowRuffCombat/CCG_Deck_ShadowRuffCombat/Materials/M_Deck_ShadowRuffCombat.M_Deck_ShadowRuffCombat"
+     ],
+     "tris": 12420
+    }
+   ]
+  }
+ },
+ "errors": []
+}

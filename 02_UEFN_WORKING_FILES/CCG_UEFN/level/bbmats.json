@@ -1,0 +1,44 @@
+{
+ "L_Billboard_3": [
+  "MI_Steel",
+  "MI_Black",
+  "MI_Sign_Billboard_HAI_Skate",
+  84044,
+  17468
+ ],
+ "L_Billboard_2": [
+  "MI_Steel",
+  "MI_Black",
+  "MI_Sign_Billboard_HAI_People",
+  30050,
+  24272
+ ],
+ "L_Billboard_1": [
+  "MI_Steel",
+  "MI_Black",
+  "MI_Sign_Billboard_HomelandAI",
+  3898,
+  7611
+ ],
+ "L_Billboard_4": [
+  "MI_Steel",
+  "MI_Black",
+  "MI_Sign_Billboard_PPA_Microdrama",
+  40541,
+  25670
+ ],
+ "L_Billboard_5": [
+  "MI_Steel",
+  "MI_Black",
+  "MI_Sign_Billboard_HAI_Frequency",
+  29023,
+  25618
+ ],
+ "L_Billboard_6": [
+  "MI_Steel",
+  "MI_Black",
+  "MI_Sign_Billboard_XPets",
+  66443,
+  20826
+ ]
+}

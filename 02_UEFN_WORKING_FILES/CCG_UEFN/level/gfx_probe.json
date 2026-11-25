@@ -1,0 +1,46 @@
+{
+ "dayseq_export": true,
+ "dayseq": {
+  "PlayerOptionData": "(PropertyOverrides=((PropertyName=\"BlendAmount\",PropertyData=\"100.000000\"),(PropertyName=\"Blending\",PropertyData=\"Volume\"),(PropertyName=\"BlendTime\",PropertyData=\"1.000000\"),(PropertyName=\"CloudCoverage\",PropertyData=\"0.400000\"),(PropertyName=\"CloudDirectionX\",PropertyData=\"1.000000\"),(PropertyName=\"CloudDirectionY\",PropertyData=\"0.000000\"),(PropertyName=\"CloudLightColor\",PropertyData=\"(R=0.255208,G=0.255208,B=0.255208,A=1.000000)\"),(PropertyName=\"CloudLightingBrightness\",PropertyData=\"5.000000\"),(PropertyName=\"CloudOpacity\",PropertyData=\"1.000000\"),(PropertyName=\"CloudShadowColor\",PropertyData=\"(R=0.151003,G=0.280568,B=0.500000,A=1.000000)\"),(PropertyName=\"CloudSize\",PropertyData=\"1.000000\"),(PropertyName=\"CloudSpeed\",PropertyData=\"1.000000\"),(PropertyName=\"CustomSunColorBlend\",PropertyData=\"0.000000\"),(PropertyName=\"DayNightCycleMode\",PropertyData=\"Default\"),(PropertyName=\"DayNightCycleTime\",PropertyData=\"12.000000\"),(PropertyName=\"EnableDuringPhase\",PropertyData=\"Always\"),(PropertyName=\"EnableFogComponent\",PropertyData=\"True\"),(PropertyName=\"EnableSkyAtmosphereComponent\",PropertyData=\"True\"),(PropertyName=\"EnableSkyboxComponent\",PropertyData=\"True\"),(PropertyName=\"EnableSkylightComponent\",PropertyData=\"True\"),(PropertyName=\"EnableSunComponent\",PropertyData=\"True\"),(PropertyName=\"EnableSunFlare\",PropertyData=\"True\"),(PropertyName=\"FogColor\",PropertyData=\"(R=0.351686,G=0.432443,B=0.656250,A=1.000000)\"),(PropertyName=\"FogDensity\",PropertyData=\"0.010000\"),(PropertyName=\"FogDirectionalInscatteringColor\",PropertyData=\"(R=0.666667,G=0.481005,B=0.302083,A=1.000000)\"),(PropertyName=\"FogHeightFalloff\",PropertyData=\"0.500000\"),(PropertyName=\"FogMaxOpacity\",PropertyData=\"0.125000\"),(PropertyName=\"LabelOverride\",PropertyData=\"FD_DaySeq_Day\"),(PropertyName=\"MoonColor\",PropertyData=\"(R=0.906250,G=0.924099,B=1.000000,A=1.000000)\"),(PropertyName=\"MoonHaloIntensity\",PropertyData=\"0.100000\"),(PropertyName=\"MoonHaloSize\",PropertyData=\"5.000000\"),(PropertyName=\"MoonIntensity\",PropertyData=\"0.200000\"),(PropertyName=\"MoonSize\",PropertyData=\"0.100000\"),(PropertyName=\"OverrideClouds\",PropertyData=\"False\"),(PropertyName=\"OverrideFog\",PropertyData=\"False\"),(PropertyName=\"OverrideSky\",PropertyData=\"False\"),(PropertyName=\"OverrideSkylight\",PropertyData=\"False\"),(PropertyName=\"OverrideSunlight\",PropertyData=\"False\"),(PropertyName=\"PlayRate\",PropertyData=\"1.000000\"),(PropertyName=\"Priority\",PropertyData=\"2000\"),(PropertyName=\"SecondaryFogDensity\",PropertyData=\"0.030000\"),(PropertyName=\"SecondaryFogFalloff\",PropertyData=\"0.650000\"),(PropertyName=\"SecondaryFogOffset\",PropertyData=\"0.000000\"),(PropertyName=\"SkyGradientBlend\",PropertyData=\"0.000000\"),(PropertyName=\"SkyGradientHighColor\",PropertyData=\"(R=0.003732,G=0.039256,B=0.140625,A=1.000000)\"),(PropertyName=\"SkyGradientLowColor\",PropertyData=\"(R=0.408013,G=0.718517,B=0.880208,A=1.000000)\"),(PropertyName=\"SkyGradientMidColor\",PropertyData=\"(R=0.067914,G=0.337830,B=0.947917,A=1.000000)\"),(PropertyName=\"SkylightColor\",PropertyData=\"(R=1.000000,G=1.000000,B=1.000000,A=1.000000)\"),(PropertyName=\"SkylightIntensity\",PropertyData=\"1.000000\"),(PropertyName=\"StarBrightness\",PropertyData=\"0.000000\"),(PropertyName=\"SunColor\",PropertyData=\"(R=0.906250,G=0.924099,B=1.000000,A=1.000000)\"),(PropertyName=\"SunIntensity\",PropertyData=\"1.000000\"),(PropertyName=\"SunlightColor\",PropertyData=\"(R=1.000000,G=1.000000,B=1.000000,A=0.000000)\"),(PropertyName=\"SunlightIntensity\",PropertyData=\"10.000000\"),(PropertyName=\"SunlightRotationX\",PropertyData=\"0.000000\"),(PropertyName=\"SunlightRotationZ\",PropertyData=\"0.000000\"),(PropertyName=\"SunlightVolumetricScattering\",PropertyData=\"1.000000\"),(PropertyName=\"SunSize\",PropertyData=\"2.000000\"),(PropertyName=\"Use Volume\",PropertyData=\"False\"),(PropertyName=\"UserDaySequence\",PropertyData=\"None\"),(PropertyName=\"VolumeExtentX\",PropertyData=\"5.000000\"),(PropertyName=\"VolumeExtentY\",PropertyData=\"5.000000\"),(PropertyName=\"VolumeExtentZ\",PropertyData=\"5.000000\")))"
+ },
+ "ppv": "<Object '/Script/Engine.PostProcessVolume' (0x000001E2950E8400) Class 'Class'>",
+ "decal": "<Object '/Script/Engine.DecalActor' (0x000001E2950C2C00) Class 'Class'>",
+ "lumen_hits": [
+  "/CRD_PostProcess/Device_PostProcess",
+  "/CRD_PostProcess/DT_Device_PostProcecss_PostProcessEffectActors",
+  "/CRD_PostProcess/SetupAssets/PID_CP_Devices_PostProcess",
+  "/CRD_SkydomeDevice/UserOptions/Knob_Creative_Device_Skydome_PostProcess",
+  "/Game/Creative/Devices/PostProcess/Materials/MI_CP_Device_PostProcess_Hologram_01",
+  "/Game/Creative/Devices/PostProcess/Materials/MI_CP_Device_PostProcess_Placed_01",
+  "/Game/Creative/Devices/PostProcess/Textures/T_CP_Device_PostProcess_01_D",
+  "/Game/Creative/Devices/PostProcess/UI/CP_Device_PostProcess_01_UI_Icon",
+  "/Game/Creative/Devices/PostProcess/UI/CP_Device_PostProcess_01_UI_Icon_SM",
+  "/Game/TimeOfDay/TODM_Sequence/UEFN/BP_LumenExposureManager",
+  "/Game/TimeOfDay/TODM_Sequence/UEFN/Icons/LumenExposureManager_256"
+ ],
+ "tex": {
+  "T_Road_Paint_Mask": true,
+  "T_Road_Wet_Mask": true,
+  "T_Decal_Atlas": true,
+  "T_Grunge_Mask": true,
+  "T_Asphalt_Hwy5_BC": true
+ },
+ "meshes": [],
+ "n_meshes": 0,
+ "road": [
+  [
+   "L_Road_Highway5",
+   [
+    "MI_Asphalt",
+    "MI_Concrete",
+    "MI_Pavers"
+   ]
+  ],
+  [
+   "L_Road_CourtyardSpur",
+   [
+    "MI_Dirt"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "L_Road_Highway5": {
+  "cls": "FortStaticMeshActor",
+  "comp": "FortStaticMeshComponent",
+  "mesh": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Level/Meshes/SM_CCG_Road.SM_CCG_Road",
+  "mob": "<ComponentMobility.STATIC: 0>",
+  "folder": "None"
+ },
+ "L_Palm_002": {
+  "cls": "FortStaticMeshActor",
+  "comp": "FortStaticMeshComponent",
+  "mesh": "/Game/Environments/Props/Trees/Meshes/SM_PalmTree_A.SM_PalmTree_A",
+  "mob": "<ComponentMobility.STATIC: 0>",
+  "folder": "None"
+ },
+ "L_Palm_001": {
+  "cls": "FortStaticMeshActor",
+  "comp": "FortStaticMeshComponent",
+  "mesh": "/Game/Environments/Props/Trees/Meshes/SM_PalmTree_B.SM_PalmTree_B",
+  "mob": "<ComponentMobility.STATIC: 0>",
+  "folder": "None"
+ },
+ "L_Palm_PalmWrap": {
+  "cls": "FortStaticMeshActor",
+  "comp": "FortStaticMeshComponent",
+  "mesh": "/Game/Environments/Props/Trees/Meshes/SM_PalmTree_B.SM_PalmTree_B",
+  "mob": "<ComponentMobility.STATIC: 0>",
+  "folder": "None"
+ },
+ "TR_Rail": {
+  "cls": "StaticMeshActor",
+  "comp": "StaticMeshComponent",
+  "mesh": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Tripo/CCG_Rail/CCG_Rail/StaticMeshes/CCG_Rail.CCG_Rail",
+  "mob": "<ComponentMobility.STATIC: 0>",
+  "folder": "None"
+ },
+ "FLT_SM_PalmTree_A": {
+  "cls": "FortStaticMeshActor",
+  "comp": "FortStaticMeshComponent",
+  "mesh": "/Game/Environments/Props/Trees/Meshes/SM_PalmTree_A.SM_PalmTree_A",
+  "mob": "<ComponentMobility.STATIC: 0>",
+  "folder": "CCG/FoliageTest"
+ },
+ "FLT_SM_JunglePlants_FanPlant_A": {
+  "cls": "FortStaticMeshActor",
+  "comp": "FortStaticMeshComponent",
+  "mesh": "/Game/Environments/Asteria/Foliage/JunglePlants/FanPlants/Meshes/SM_JunglePlants_FanPlant_A.SM_JunglePlants_FanPlant_A",
+  "mob": "<ComponentMobility.STATIC: 0>",
+  "folder": "CCG/FoliageTest"
+ },
+ "FLT_SM_ThornBush_A": {
+  "cls": "FortStaticMeshActor",
+  "comp": "FortStaticMeshComponent",
+  "mesh": "/Game/Environments/Asteria/Foliage/Bushes/Thorn_Bushes/Meshes/SM_ThornBush_A.SM_ThornBush_A",
+  "mob": "<ComponentMobility.STATIC: 0>",
+  "folder": "CCG/FoliageTest"
+ }
+}

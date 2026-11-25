@@ -1,0 +1,208 @@
+Begin Map Name=/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind
+   Begin Level NAME=PersistentLevel
+      Begin Actor Class=/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C Name=Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494 Archetype="/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C'/CreativeCoreDevices/Device_ClassDesigner_V2.Default__Device_ClassDesigner_V2_C'" ActorFolderPath="None" ExportPath="/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Default__Device_ClassDesigner_V2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Default__Device_ClassDesigner_V2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Default__Device_ClassDesigner_V2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.ToyOptionsComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype="/Script/FortniteGame.FortMinigameProgressComponent'/Game/Creative/BluePrints/BuildingToyProp.BuildingToyProp_C:FortMinigameProgress_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.FortMinigameProgress'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:VisibleInGameComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.VisibleInGameComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="PreviewMeshScene" Archetype="/Script/Engine.SceneComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:PreviewMeshScene_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.PreviewMeshScene'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="PreviewStaticMesh" Archetype="/Script/Engine.StaticMeshComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:PreviewStaticMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.PreviewStaticMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.SkeletalMeshComponent Name="PreviewSkeletalMesh" Archetype="/Script/Engine.SkeletalMeshComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:PreviewSkeletalMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.SkeletalMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.PreviewSkeletalMesh'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/CaptureArea/PickupItemListComponent.PickupItemListComponent_C Name="PickupItemList" Archetype="/Game/Creative/Devices/CaptureArea/PickupItemListComponent.PickupItemListComponent_C'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:PickupItemList_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/CaptureArea/PickupItemListComponent.PickupItemListComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.PickupItemList'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="ItemSpawnerScene" Archetype="/Script/Engine.SceneComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:ItemSpawnerScene_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.ItemSpawnerScene'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="DropArea" Archetype="/Script/Engine.BoxComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:DropArea_GEN_VARIABLE'" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.DropArea'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="BaseMesh" Archetype="/Script/Engine.StaticMeshComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:BaseMesh_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.BaseMesh'"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="Ambient Loop" Archetype="/Script/Engine.AudioComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:Ambient Loop_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.Ambient Loop'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_ItemPreview_Component.Creative_ItemPreview_Component_C Name="Creative_ItemPreview_Component" Archetype="/Game/Creative/Devices/Common/Components/Creative_ItemPreview_Component.Creative_ItemPreview_Component_C'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:Creative_ItemPreview_Component_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_ItemPreview_Component.Creative_ItemPreview_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.Creative_ItemPreview_Component'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortCreativeItemVariantNotifierComponent Name="ItemVariantNotifier" Archetype="/Script/FortniteGame.FortCreativeItemVariantNotifierComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:ItemVariantNotifier_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortCreativeItemVariantNotifierComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.ItemVariantNotifier'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="ShowInUIWhenReceivedFrom" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:ShowInUIWhenReceivedFrom_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.ShowInUIWhenReceivedFrom'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="HideInUIWhenReceivedFrom" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:HideInUIWhenReceivedFrom_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.HideInUIWhenReceivedFrom'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeVersionComponent Name="CreativeVersion" Archetype="/Script/FortniteGame.CreativeVersionComponent'/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C:CreativeVersion_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeVersionComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.CreativeVersion'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.StaticMeshComponent0'"
+            CachedMaxDrawDistance=2800.000000
+            OnComponentPhysicsStateChanged=()
+            RelativeLocation=(X=-1348.600000,Y=-1334.700000,Z=106.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=26.268492,Roll=-0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.ToyOptionsComponent'"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="AllowHealthRecharge",PropertyData="False"),(PropertyName="AllowShieldRecharge",PropertyData="False"),(PropertyName="bAllowMantling"),(PropertyName="bAllowOvershield"),(PropertyName="bAllowShoulderBashing"),(PropertyName="bAllowSlideKick"),(PropertyName="bAllowSliding"),(PropertyName="bAllowSprinting"),(PropertyName="bAllowVaulting"),(PropertyName="bApplyJumpingPenalty"),(PropertyName="bDisplayEmptyAmmoSlots",PropertyData="True"),(PropertyName="bFlyingEnabled"),(PropertyName="bGliderRedeployable"),(PropertyName="bGrantItemsOnRespawn",PropertyData="False"),(PropertyName="bInfiniteBuildingResources"),(PropertyName="bInfiniteCharges"),(PropertyName="bInfiniteDurability"),(PropertyName="bInfiniteGold"),(PropertyName="bInfiniteLoadedEnergy"),(PropertyName="bInfiniteMagazineAmmo"),(PropertyName="bInfiniteReserveEnergy"),(PropertyName="bInfiniteWorldResources"),(PropertyName="bInvincibility"),(PropertyName="bNoCooldowns"),(PropertyName="bNoCooldownsAfterSwap"),(PropertyName="bOverrideSpawnImmunityTime"),(PropertyName="bVisibleDuringGame",PropertyData="False"),(PropertyName="ClassIdentifier",PropertyData="(ClassType=ClassSlot,ClassSlot=1)"),(PropertyName="DownButNotOut"),(PropertyName="DropRebootCardOnElimination"),(PropertyName="EnergyMax"),(PropertyName="EnergyRechargeAmount"),(PropertyName="EnergyRechargeDelay"),(PropertyName="EquipGrantedItem",PropertyData="Don\'t Equip"),(PropertyName="HealthRechargeApplicationAmount",PropertyData="1.000000"),(PropertyName="HealthRechargeDelay",PropertyData="6.500000"),(PropertyName="HealthRechargePeriod",PropertyData="0.200000"),(PropertyName="InitialWeaponAmmo"),(PropertyName="LabelOverride",PropertyData="FD_Class_0"),(PropertyName="MantlingMinimumHeight"),(PropertyName="MantlingMinimumHeightInWater"),(PropertyName="MaxHealth"),(PropertyName="MaxShields"),(PropertyName="MaxSprintingJumpMultiplier"),(PropertyName="MaxSprintingSpeedMultiplier"),(PropertyName="MovementMultiplier"),(PropertyName="OvershieldMax"),(PropertyName="OvershieldRechargeApplicationAmount"),(PropertyName="OvershieldRechargeDelay"),(PropertyName="OvershieldRechargePeriod"),(PropertyName="ShieldRechargeApplicationAmount",PropertyData="1.000000"),(PropertyName="ShieldRechargeDelay",PropertyData="6.500000"),(PropertyName="ShieldRechargePeriod",PropertyData="0.200000"),(PropertyName="SpareWeaponAmmo"),(PropertyName="SpawnImmunityTime"),(PropertyName="SprintingEnergyCostPerSecond"),(PropertyName="StartingHealthPercentage"),(PropertyName="StartingShieldPercentage"),(PropertyScope="FortPlayerClassSettingsComponent",PropertyName="bVisibleInUI",PropertyData="True"),(PropertyScope="FortPlayerClassSettingsComponent",PropertyName="ClassDescription"),(PropertyScope="FortPlayerClassSettingsComponent",PropertyName="ClassName"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="bAllowItemDrop"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="bAllowItemPickUp"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="bFallDamage"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="bInfiniteAmmo"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="bInfiniteConsumables"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="bInstantReload"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="bLimitNamePlateMaxDistance"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="BuildingMode"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="CreativeBossHealthDisplayMode"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="DropAllGameResourcesOverride"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="DropAllItemsOverride"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="DropAllResourcesOverride"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="GoldSiphonValue"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="GravityPreset"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="HarvestRateMutliplier"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="HealthSiphonValue"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="MaximumResources"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="MetalSiphonValue"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="NameplateDisplayDistanceMeters"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="NameplateDisplayMode"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="NameplateFocusAngleDegrees"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="NameplateFocusMode"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="NameplateFocusTime"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="NameplateLineOfSight"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="PlayerHealthIndicatorDisplayMode"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="PlayerLives"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="RespawnTime"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="ShowVoiceIndicator"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="SpawnLocationSetting"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="StoneSiphonValue"),(PropertyScope="FortPlayerSettingsComponentBase",PropertyName="WoodSiphonValue"),(PropertyScope="FortWeaponSettingsComponent",PropertyName="Enabled")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.FortMinigameProgress'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.VisibleInGameComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="PreviewMeshScene" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.PreviewMeshScene'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="PreviewStaticMesh" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.PreviewStaticMesh'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="PreviewMeshScene"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="PreviewSkeletalMesh" ExportPath="/Script/Engine.SkeletalMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.PreviewSkeletalMesh'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="PreviewMeshScene"
+            PrimaryComponentTick=(EndTickGroup=TG_PostPhysics)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="PickupItemList" ExportPath="/Game/Creative/Devices/CaptureArea/PickupItemListComponent.PickupItemListComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.PickupItemList'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ItemSpawnerScene" ExportPath="/Script/Engine.SceneComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.ItemSpawnerScene'"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DropArea" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.DropArea'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="ItemSpawnerScene"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="BaseMesh" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.BaseMesh'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Ambient Loop" ExportPath="/Script/Engine.AudioComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.Ambient Loop'"
+            AttachParent="BaseMesh"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Creative_ItemPreview_Component" ExportPath="/Game/Creative/Devices/Common/Components/Creative_ItemPreview_Component.Creative_ItemPreview_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.Creative_ItemPreview_Component'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ItemVariantNotifier" ExportPath="/Script/FortniteGame.FortCreativeItemVariantNotifierComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.ItemVariantNotifier'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ShowInUIWhenReceivedFrom" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.ShowInUIWhenReceivedFrom'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="HideInUIWhenReceivedFrom" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.HideInUIWhenReceivedFrom'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeVersion" ExportPath="/Script/FortniteGame.CreativeVersionComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_ClassDesigner_V2_C_UAID_BC38988AD19DCD1503_1243953494.CreativeVersion'"
+            LastSavedReleaseVersion=(CachedVersion=29)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         CreativeVersion="CreativeVersion"
+         HideInUIWhenReceivedFrom="HideInUIWhenReceivedFrom"
+         ShowInUIWhenReceivedFrom="ShowInUIWhenReceivedFrom"
+         ItemVariantNotifier="ItemVariantNotifier"
+         Creative_ItemPreview_Component="Creative_ItemPreview_Component"
+         Ambient Loop="Ambient Loop"
+         BaseMesh="BaseMesh"
+         PreviewSkeletalMesh="PreviewSkeletalMesh"
+         DropArea="DropArea"
+         ItemSpawnerScene="ItemSpawnerScene"
+         PickupItemList="PickupItemList"
+         PreviewStaticMesh="PreviewStaticMesh"
+         PreviewMeshScene="PreviewMeshScene"
+         ShieldRechargeApplicationAmount=1.000000
+         ShieldRechargePeriod=0.200000
+         bInfiniteBuildingResources=True
+         bInfiniteGold=True
+         bInfiniteWorldResources=True
+         ClassIdentifier_Override=True
+         bDisplayEmptyAmmoSlots_Override=True
+         HealthRechargeApplicationAmount=1.000000
+         HealthRechargePeriod=0.200000
+         OvershieldRechargeApplicationAmount=1.000000
+         OvershieldRechargePeriod=0.200000
+         VisibleInGameComponent="VisibleInGameComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         MyGuid=3A2070EC47D1F327FEF7988B39A1337F
+         CullDistance=2800.000000
+         DataVersion=1
+         OverridePrimitivesToExcludeFoliage(0)="BaseMesh"
+         SavedActorGuid=0000000000000000000000001E68EBA3
+         LabelOverride="FD_Class_0"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FD_Class_0"
+         BlueprintCreatedComponents(0)="ToyOptionsComponent"
+         BlueprintCreatedComponents(1)="FortMinigameProgress"
+         BlueprintCreatedComponents(2)="VisibleInGameComponent"
+         BlueprintCreatedComponents(3)="PreviewMeshScene"
+         BlueprintCreatedComponents(4)="PreviewStaticMesh"
+         BlueprintCreatedComponents(5)="PreviewSkeletalMesh"
+         BlueprintCreatedComponents(6)="PickupItemList"
+         BlueprintCreatedComponents(7)="ItemSpawnerScene"
+         BlueprintCreatedComponents(8)="DropArea"
+         BlueprintCreatedComponents(9)="BaseMesh"
+         BlueprintCreatedComponents(10)="Ambient Loop"
+         BlueprintCreatedComponents(11)="Creative_ItemPreview_Component"
+         BlueprintCreatedComponents(12)="ItemVariantNotifier"
+         BlueprintCreatedComponents(13)="ShowInUIWhenReceivedFrom"
+         BlueprintCreatedComponents(14)="HideInUIWhenReceivedFrom"
+         BlueprintCreatedComponents(15)="CreativeVersion"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

@@ -1,0 +1,16 @@
+{
+ "export_empty": "(__verse_0xE781F91D_Forward=0.000000,__verse_0x88EBCF27_Left=0.000000,__verse_0x5782DB13_Up=0.000000)",
+ "after_setattr": "(__verse_0xE781F91D_Forward=123.000000,__verse_0x88EBCF27_Left=0.000000,__verse_0x5782DB13_Up=0.000000)",
+ "getattr": 123.0,
+ "after_sep": "(__verse_0xE781F91D_Forward=456.000000,__verse_0x88EBCF27_Left=0.000000,__verse_0x5782DB13_Up=0.000000)",
+ "sep___verse_0x51F8FD2F_X": "ERR SpatialMath_vector3: Failed to find property '__verse_0x51F8FD2F_X' for attribute '__verse_0x51F8FD2F_X' on 'SpatialMath",
+ "sep_X": "ERR SpatialMath_vector3: Failed to find property 'X' for attribute 'X' on 'SpatialMath_vector3'",
+ "sep_verse_0x51F8FD2F_X": "(__verse_0xE781F91D_Forward=789.000000,__verse_0x88EBCF27_Left=0.000000,__verse_0x5782DB13_Up=0.000000)",
+ "import1": "(__verse_0xE781F91D_Forward=1.500000,__verse_0x88EBCF27_Left=2.500000,__verse_0x5782DB13_Up=3.500000)",
+ "import2": [
+  true,
+  "(__verse_0xE781F91D_Forward=0.000000,__verse_0x88EBCF27_Left=0.000000,__verse_0x5782DB13_Up=0.000000)"
+ ],
+ "assign_err": "SpatialMath_vector3: Cannot cast type 'Vector' to 'SpatialMath_vector3'",
+ "to_dict": "{'verse_0x_e781f91d_forward': 0.0, 'verse_0x88ebcf27_left': 0.0, 'verse_0x5782db13_up': 0.0}"
+}

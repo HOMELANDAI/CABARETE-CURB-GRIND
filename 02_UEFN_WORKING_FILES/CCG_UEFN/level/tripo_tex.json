@@ -1,0 +1,602 @@
+[
+ [
+  "CCG_Rider_Yara_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Rider_Yara_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Rider_Rubi_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_ShopCounter_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Rider_Rubi_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_ShopCounter_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_DeckRack_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_ShopCounter_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Rider_Sunny_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Rider_Rubi_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Rider_Yara_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_KaftanRack_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Board_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Rider_Kai_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Rider_Sunny_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Rider_Sunny_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Rail_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Rail_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Rider_Kai_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Rider_Kai_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Kicker_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Kicker_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Kicker_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Rail_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Board_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Board_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_KaftanRack_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_DeckRack_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_KaftanRack_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_SeaGrape_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_DeckRack_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_FlannelTable_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_FlannelTable_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_FlannelTable_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_SeaGrape_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_SeaGrape_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Palm_B_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Palm_A_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Palm_A_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Bougainvillea_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Palm_B_normal_png",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Palm_B_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Palm_A_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Bougainvillea_rm_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Bougainvillea_basecolor_jpg",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Deck_ShadowRuffCombat_rm",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Deck_ShadowRuffCombat_basecolor",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Deck_ShadowRuffCombat_normal",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Deck_IvoryMandalaFlow_rm",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Deck_IvoryMandalaFlow_basecolor",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Deck_IvoryMandalaFlow_normal",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Deck_IvoryGridSupremeRemix_rm",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Deck_IvoryGridSupremeRemix_basecolor",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Deck_IvoryGridSupremeRemix_normal",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Deck_IvoryEngraveSupreme_rm",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Deck_IvoryEngraveSupreme_basecolor",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Deck_IvoryEngraveSupreme_normal",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Deck_GoldenPawStrike_rm",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Deck_GoldenPawStrike_basecolor",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Deck_GoldenPawStrike_normal",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Deck_EmeraldPawKata_rm",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Deck_EmeraldPawKata_basecolor",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Deck_EmeraldPawKata_normal",
+  4096,
+  4096,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Rider_Kai_rm",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Rider_Kai_normal",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Rider_Kai_basecolor",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Rider_Rubi_rm",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Rider_Rubi_normal",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Rider_Rubi_basecolor",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Rider_Sunny_rm",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Rider_Sunny_normal",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Rider_Sunny_basecolor",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ],
+ [
+  "CCG_Rider_Yara_rm",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  false,
+  false
+ ],
+ [
+  "CCG_Rider_Yara_normal",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+  false,
+  true
+ ],
+ [
+  "CCG_Rider_Yara_basecolor",
+  32,
+  32,
+  "<TextureCompressionSettings.TC_DEFAULT: 0>",
+  true,
+  false
+ ]
+]

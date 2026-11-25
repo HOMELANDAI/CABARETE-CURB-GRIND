@@ -1,0 +1,509 @@
+{
+ "ccg_classes": [
+  {
+   "name": "task_CCG-Verse-ccg_timeofday$OnBegin",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.task_CCG-Verse-ccg_timeofday$OnBegin",
+   "super": "?"
+  },
+  {
+   "name": "task_CCG-Verse-ccg_store$OnBegin",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.task_CCG-Verse-ccg_store$OnBegin",
+   "super": "?"
+  },
+  {
+   "name": "task_CCG-Verse-ccg_rider_select$OnBegin",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.task_CCG-Verse-ccg_rider_select$OnBegin",
+   "super": "?"
+  },
+  {
+   "name": "task_CCG-Verse-ccg_rail$OnBegin",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.task_CCG-Verse-ccg_rail$OnBegin",
+   "super": "?"
+  },
+  {
+   "name": "task_CCG-Verse-ccg_rail$Grind_L_N_L_2fVerse_2eorg_2fSimulation_N_Ragent_M_N_L_2fVerse_2eorg_2fSimulation_N_Rplayer_R",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.task_CCG-Verse-ccg_rail$Grind_L_N_L_2fVerse_2eorg_2fSimulation_N_Ragent_M_N_L_2fVerse_2eorg_2fSimulation_N_Rplayer_R",
+   "super": "?"
+  },
+  {
+   "name": "task_CCG-Verse-ccg_graphics$OnBegin",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.task_CCG-Verse-ccg_graphics$OnBegin",
+   "super": "?"
+  },
+  {
+   "name": "task_CCG-Verse-ccg_graphics$FlickerLoop",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.task_CCG-Verse-ccg_graphics$FlickerLoop",
+   "super": "?"
+  },
+  {
+   "name": "task_CCG-Verse-ccg_game_manager$OnBegin",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.task_CCG-Verse-ccg_game_manager$OnBegin",
+   "super": "?"
+  },
+  {
+   "name": "task_CCG-Verse-ccg_game_manager$FinishSequence_L_N_L_2fVerse_2eorg_2fSimulation_N_Ragent_M_N_L_2fhaigaming_40fortnite_2ecom_2fCabareteCurbGrind_2fCCG_2fVerse_N_Rccg__player__state_R",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.task_CCG-Verse-ccg_game_manager$FinishSequence_L_N_L_2fVerse_2eorg_2fSimulation_N_Ragent_M_N_L_2fhaigaming_40fortnite_2ecom_2fCabareteCurbGrind_2fCCG_2fVerse_N_Rccg__player__state_R",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-combo_tracker",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-combo_tracker",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_scoring",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_scoring",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_timeofday",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_timeofday",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_store_button_binding",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_store_button_binding",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_store",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_store",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_rider_button_binding",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_rider_button_binding",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_rider_select",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_rider_select",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_rail",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_rail",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_graphics",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_graphics",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_mural_binding",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_mural_binding",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_trick_button_binding",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_trick_button_binding",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_game_manager",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_game_manager",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse-ccg_player_state",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_player_state",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Verse",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Signs",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Signs",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Riders-Koda-MI_Koda",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Riders-Koda-MI_Koda",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Riders-Koda",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Riders-Koda",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Riders-Kefla-MI_Kefla",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Riders-Kefla-MI_Kefla",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Riders-Kefla",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Riders-Kefla",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Riders-Crash-MI_Crash",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Riders-Crash-MI_Crash",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Riders-Crash",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Riders-Crash",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Murals",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Murals",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Wood",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Wood",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_WallPaint",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_WallPaint",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Trunk",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Trunk",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Stucco",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Stucco",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Steel",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Steel",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Yummy",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Yummy",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Wallride",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Wallride",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Villa_Taina",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Villa_Taina",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Vagamundo",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Vagamundo",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Tienda",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Tienda",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Santa_Paella",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Santa_Paella",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Restaurant",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Restaurant",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Puente_Starlight",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Puente_Starlight",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_ProCab",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_ProCab",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Presidential_Suites",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Presidential_Suites",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Plaza_Garden",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Plaza_Garden",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Pizza_House",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Pizza_House",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Olivias",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Olivias",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_OJO_Club",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_OJO_Club",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Ocean_Dream_Plaza",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Ocean_Dream_Plaza",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Mojito_Park",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Mojito_Park",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Mojito_Bar",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Mojito_Bar",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Marion",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Marion",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Lot_Two",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Lot_Two",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Lot_One",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Lot_One",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Honey_Company",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Honey_Company",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_HAI_Store_Square",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_HAI_Store_Square",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_HAI_Skate_Neon",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_HAI_Skate_Neon",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Gypsy_Bowls",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Gypsy_Bowls",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Gym",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Gym",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Gorditos",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Gorditos",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Full_Moon",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Full_Moon",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Fresh_Fresh",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Fresh_Fresh",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Estacion",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Estacion",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Courtyard_Park",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Courtyard_Park",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Carve_Multiplex",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Carve_Multiplex",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Cabarete_Letters",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Cabarete_Letters",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Bonus_Lock",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Bonus_Lock",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Billboard_HomelandAI",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Billboard_HomelandAI",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Billboard_HAI_Skate",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Billboard_HAI_Skate",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Billboard_HAI_People",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Billboard_HAI_People",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Banco",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Banco",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sign_Bakery",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sign_Bakery",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sea",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sea",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Sand",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Sand",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Roof",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Roof",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Pavers",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Pavers",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Palm",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Palm",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_mural_vicewave",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_mural_vicewave",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_mural_schnauzer_detectives",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_mural_schnauzer_detectives",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_mural_ppa_microdrama",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_mural_ppa_microdrama",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_mural_paw_power_arena",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_mural_paw_power_arena",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_mural_over_everything",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_mural_over_everything",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_mural_clisante_rush",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_mural_clisante_rush",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Letters",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Letters",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Grass",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Grass",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Graffiti",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Graffiti",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Glass",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Glass",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Dirt",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Dirt",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Concrete",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Concrete",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Black",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Black",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-MI-MI_Asphalt",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-MI-MI_Asphalt",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-M_CCG_Rider",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-M_CCG_Rider",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials-M_CCG_Env",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials-M_CCG_Env",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Materials",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Materials",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Level-Meshes-SM_CCG_WaveRail",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Level-Meshes-SM_CCG_WaveRail",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Level-Meshes-SM_CCG_TwinTwistB",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Level-Meshes-SM_CCG_TwinTwistB",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Level-Meshes-SM_CCG_TwinTwistA",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Level-Meshes-SM_CCG_TwinTwistA",
+   "super": "?"
+  },
+  {
+   "name": "CCG-Level-Meshes-SM_CCG_StreetLamp",
+   "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse/Assets.CCG-Level-Meshes-SM_CCG_StreetLamp",
+   "super": "?"
+  }
+ ],
+ "load_old": {
+  "name": "CCG-Verse-ccg_rail",
+  "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_rail",
+  "class": "VerseClass"
+ },
+ "list_verse": 

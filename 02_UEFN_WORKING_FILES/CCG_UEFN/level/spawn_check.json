@@ -1,0 +1,52 @@
+[
+ {
+  "label": "Player 2 Spawn Pad",
+  "cls": "BP_Creative_Player_Spawner_Prop_C",
+  "loc": [
+   250,
+   768,
+   384
+  ],
+  "under_or_at": [
+   [
+    "L_Park_P1_Vagamundo",
+    672
+   ],
+   [
+    "L_Rail_Bridge_S",
+    798
+   ],
+   [
+    "L_Park_P3_Mojito",
+    672
+   ],
+   [
+    "L_Sig_KiteLine",
+    418
+   ],
+   [
+    "L_Park_P2_Multiplex",
+    440
+   ],
+   [
+    "L_Rail_Bridge_N",
+    798
+   ]
+  ]
+ },
+ {
+  "label": "Player 1 Spawn Pad",
+  "cls": "BP_Creative_Player_Spawner_Prop_C",
+  "loc": [
+   -250,
+   768,
+   384
+  ],
+  "under_or_at": [
+   [
+    "L_Bldg_01_plain",
+    533
+   ]
+  ]
+ }
+]

@@ -1,0 +1,151 @@
+Begin Map Name=/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind
+   Begin Level NAME=PersistentLevel
+      Begin Actor Class=/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C Name=Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482 Archetype="/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C'/CreativeCoreDevices/Device_HUDMessage_V2.Default__Device_HUDMessage_V2_C'" ActorFolderPath="None" ExportPath="/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Default__Device_HUDMessage_V2_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Default__Device_HUDMessage_V2_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Default__Device_HUDMessage_V2_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.ToyOptionsComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype="/Script/FortniteGame.FortMinigameProgressComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C:FortMinigameProgress_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.FortMinigameProgress'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:EnabledComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.EnabledComponent'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.VisibleInGameComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="ShowWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C:ShowWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.ShowWhenReceived'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="HideWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C:HideWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.HideWhenReceived'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="CreativeEditOnlyMesh" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C:CreativeEditOnlyMesh_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.CreativeEditOnlyMesh'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="ClearLayerForAllWhenReceived" Archetype="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C:ClearLayerForAllWhenReceived_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.ClearLayerForAllWhenReceived'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeVersionComponent Name="CreativeVersion" Archetype="/Script/FortniteGame.CreativeVersionComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C:CreativeVersion_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeVersionComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.CreativeVersion'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="OnMessageShownTrigger" Archetype="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C:OnMessageShownTrigger_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.OnMessageShownTrigger'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="OnMessageHiddenTrigger" Archetype="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C:OnMessageHiddenTrigger_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.OnMessageHiddenTrigger'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="OnMessagesClearedTrigger" Archetype="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C:OnMessagesClearedTrigger_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.OnMessagesClearedTrigger'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.StaticMeshComponent0'"
+            CachedMaxDrawDistance=2800.000000
+            OnComponentPhysicsStateChanged=()
+            RelativeLocation=(X=-1096.131752,Y=-513.107532,Z=106.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.ToyOptionsComponent'"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="Allow Multiple in Queue",PropertyData="False"),(PropertyName="BackgroundColor",PropertyData="(R=0.019608,G=0.000000,B=0.615686,A=1.000000)"),(PropertyName="BackgroundOpacity",PropertyData="0.000000"),(PropertyName="DisplayTime",PropertyData="5.000000"),(PropertyName="HUD Widget",PropertyData="/CreativeCoreDevices/HUDMessage/Widget_HUDMessage_Default.Widget_HUDMessage_Default_C"),(PropertyName="Intro Animation",PropertyData="Zoom"),(PropertyName="LabelOverride",PropertyData="FD_HUD"),(PropertyName="Layer",PropertyData="0"),(PropertyName="Message"),(PropertyName="Message Recipient",PropertyData="(TeamType=All,TeamIndex=1)"),(PropertyName="OutlineStrength",PropertyData="1"),(PropertyName="Outro Animation",PropertyData="Fade and Zoom"),(PropertyName="Override Default Text Style",PropertyData="True"),(PropertyName="Placement",PropertyData="Bottom Center"),(PropertyName="PlacementHorizontal",PropertyData="0.000000"),(PropertyName="PlacementVertical",PropertyData="0.000000"),(PropertyName="PlaySound",PropertyData="/Game/Athena/Sounds/LTMs/Score/ScoreLTM_ImportantMessage_Cue.ScoreLTM_ImportantMessage_Cue"),(PropertyName="Priority",PropertyData="5"),(PropertyName="Queue Message for Join in Progress Players",PropertyData="True"),(PropertyName="QueueTimeout"),(PropertyName="Re-Evaluate Messages on Show",PropertyData="False"),(PropertyName="ScreenAnchor",PropertyData="Top Left"),(PropertyName="ShadowOffset",PropertyData="1.000000"),(PropertyName="Show Behavior if Showing",PropertyData="Reset Display Time"),(PropertyName="ShowForDuration",PropertyData="True"),(PropertyName="ShowOnRoundStart",PropertyData="False"),(PropertyName="Size",PropertyData="18"),(PropertyName="Text Justification",PropertyData="Center"),(PropertyName="TextColor",PropertyData="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"),(PropertyName="TextStyleSet"),(PropertyName="TimeFromRoundStart",PropertyData="10.000000"),(PropertyName="VerseTextStyle")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.FortMinigameProgress'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.EnabledComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.VisibleInGameComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ShowWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.ShowWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="HideWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.HideWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyMesh" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.CreativeEditOnlyMesh'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Message/Meshes/Demo/Message_Demo.Message_Demo'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ClearLayerForAllWhenReceived" ExportPath="/Script/FortniteGame.FortGameplayReceiverMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.ClearLayerForAllWhenReceived'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeVersion" ExportPath="/Script/FortniteGame.CreativeVersionComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.CreativeVersion'"
+            LastSavedReleaseVersion=(CachedVersion=29)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="OnMessageShownTrigger" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.OnMessageShownTrigger'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="OnMessageHiddenTrigger" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.OnMessageHiddenTrigger'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="OnMessagesClearedTrigger" ExportPath="/Script/FortniteGame.FortGameplayTriggerMessageComponent'/9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.Device_HUDMessage_V2_C_UAID_BC38988AD19DCD1503_1243721482.OnMessagesClearedTrigger'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         OnMessagesClearedTrigger="OnMessagesClearedTrigger"
+         OnMessageHiddenTrigger="OnMessageHiddenTrigger"
+         OnMessageShownTrigger="OnMessageShownTrigger"
+         CreativeVersion="CreativeVersion"
+         ClearLayerForAllWhenReceived="ClearLayerForAllWhenReceived"
+         CreativeEditOnlyMesh="CreativeEditOnlyMesh"
+         HideWhenReceived="HideWhenReceived"
+         ShowWhenReceived="ShowWhenReceived"
+         ShowTextOnOverride=True
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         MyGuid=D35FC6514A7901A0F38CB99E4E5BFF20
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000AFCA4137
+         LabelOverride="FD_HUD"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="FD_HUD"
+         BlueprintCreatedComponents(0)="ToyOptionsComponent"
+         BlueprintCreatedComponents(1)="FortMinigameProgress"
+         BlueprintCreatedComponents(2)="EnabledComponent"
+         BlueprintCreatedComponents(3)="VisibleInGameComponent"
+         BlueprintCreatedComponents(4)="ShowWhenReceived"
+         BlueprintCreatedComponents(5)="HideWhenReceived"
+         BlueprintCreatedComponents(6)="CreativeEditOnlyMesh"
+         BlueprintCreatedComponents(7)="ClearLayerForAllWhenReceived"
+         BlueprintCreatedComponents(8)="CreativeVersion"
+         BlueprintCreatedComponents(9)="OnMessageShownTrigger"
+         BlueprintCreatedComponents(10)="OnMessageHiddenTrigger"
+         BlueprintCreatedComponents(11)="OnMessagesClearedTrigger"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

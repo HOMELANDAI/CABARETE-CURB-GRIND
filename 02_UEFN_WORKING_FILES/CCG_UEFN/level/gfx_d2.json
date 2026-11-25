@@ -1,0 +1,73 @@
+{
+ "env": [
+  "emissive <- MaterialExpressionMultiply_22",
+  "deleted 10"
+ ],
+ "road": [
+  "Wetness -> Multiply_1.B / Multiply_2.B",
+  "deleted ['MaterialExpressionCollectionParameter_0', 'MaterialExpressionMultiply_6', 'MaterialExpressionMultiply_7']"
+ ],
+ "seq": {
+  "signs": [
+   [
+    "L_Billboard_4",
+    2,
+    "MI_Sign_Billboard_PPA_Microdrama"
+   ],
+   [
+    "L_Bldg_14_Olivias",
+    2,
+    "MI_Sign_Olivias"
+   ],
+   [
+    "L_Billboard_3",
+    2,
+    "MI_Sign_Billboard_HAI_Skate"
+   ],
+   [
+    "L_Billboard_5",
+    2,
+    "MI_Sign_Billboard_HAI_Frequency"
+   ],
+   [
+    "L_Bldg_08_Full_Moon",
+    2,
+    "MI_Sign_Full_Moon"
+   ],
+   [
+    "L_Bldg_12_OJO_Club",
+    2,
+    "MI_Sign_OJO_Club"
+   ],
+   [
+    "L_Store_OceanDreamPlaza",
+    2,
+    "MI_Sign_HAI_Skate_Neon"
+   ],
+   [
+    "L_Billboard_6",
+    2,
+    "MI_Sign_Billboard_XPets"
+   ],
+   [
+    "L_Bldg_15_Mojito_Bar",
+    2,
+    "MI_Sign_Mojito_Bar"
+   ],
+   [
+    "L_Billboard_2",
+    2,
+    "MI_Sign_Billboard_HAI_People"
+   ],
+   [
+    "L_Billboard_1",
+    2,
+    "MI_Sign_Billboard_HomelandAI"
+   ]
+  ],
+  "road": null,
+  "bindings": 31
+ },
+ "err": [],
+ "warn": []
+}

@@ -1,0 +1,85 @@
+{
+ "attrs": [
+  "verse_0x51f8fd2f_x",
+  "verse_0x349f4197_y",
+  "verse_0x_da30f485_z"
+ ],
+ "before": [
+  [],
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "after": [
+  [],
+  [],
+  []
+ ],
+ "after_vec": [
+  [],
+  []
+ ],
+ "classes": {
+  "volume": "/CRD_Volume/Device_Volume.Device_Volume_C",
+  "barrier": "/CRD_VolumetricRegion/Device_Barrier_V2.Device_Barrier_V2_C",
+  "hud": "/CreativeCoreDevices/Device_HUDMessage_V2.Device_HUDMessage_V2_C",
+  "button": "/CreativeCoreDevices/Device_Button_V2.Device_Button_V2_C",
+  "granter": "/CreativeCoreDevices/Device_ItemGranter_V2.Device_ItemGranter_V2_C",
+  "classdesigner": "/CreativeCoreDevices/Device_ClassDesigner_V2.Device_ClassDesigner_V2_C",
+  "classselector": "/CreativeCoreDevices/Device_ClassSelector_V2.Device_ClassSelector_V2_C",
+  "light": "/Game/Creative/Devices/Lights/BP_CustomizableLight.BP_CustomizableLight_C",
+  "daysequence": "/Game/Creative/Devices/Lighting/BP_DaySequenceModifier_Device.BP_DaySequenceModifier_Device_C",
+  "vfx": "/CRD_VFX_Spawner/Device_VFXSpawner_V2.Device_VFXSpawner_V2_C",
+  "spawn": "/CRD_PlayerSpawn/BP_Creative_Player_Spawner_Prop.BP_Creative_Player_Spawner_Prop_C",
+  "trigger": "/CreativeCoreDevices/Device_Trigger_Parent_V2.Device_Trigger_Parent_V2_C",
+  "endgame": "/CRD_GameEnd/SetupAssets/CP_Devices_EndGame.CP_Devices_EndGame_C"
+ },
+ "more": {
+  "trigger": [
+   "/CRD_ChannelManager/Actors/B_Creative_TriggerGrenadeManager",
+   "/CRD_ChannelManager/Actors/Projectile/Projectile_TriggerGrenade_Parent",
+   "/CRD_ChannelManager/Actors/Weapon/Weapon_Trigger_Grenade_Parent",
+   "/CRD_ChannelManager/GA_Creative_TriggerGrenade_Primary",
+   "/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger",
+   "/CRD_FabricNoteTrigger/Device_FabricNoteTrigger",
+   "/CRD_FabricNoteTrigger/FabricButtons/FabricNoteTriggerButton",
+   "/CRD_FabricNoteTrigger/FabricNoteTrigger_MetaSoundPatchWrapper",
+   "/CRD_InputTrigger/Device_InputTrigger",
+   "/CRD_InputTrigger/Input/UI/BBE_InputTrigger_Crouch",
+   "/CRD_InputTrigger/Input/UI/BBE_InputTrigger_Fire",
+   "/CRD_InputTrigger/Input/UI/BBE_InputTrigger_Interact",
+   "/CRD_InputTrigger/Input/UI/BBE_InputTrigger_Jump",
+   "/CRD_InputTrigger/Input/UI/BBE_InputTrigger_Sprint",
+   "/CRD_InputTrigger/Input/UI/BBE_InputTrigger_Target"
+  ],
+  "endgame": [
+   "/CRD_GameEnd/SetupAssets/CP_Devices_EndGame"
+  ],
+  "gameend": [
+   "/CRD_GameEnd/Device_GameEnd"
+  ],
+  "timeofday": [],
+  "cinematic": [
+   "/CRD_CinematicSequence/Device_CinematicSequence"
+  ],
+  "spawn": [
+   "/CRD_AIPatrolPath/IPatrolPathSpawnerInterface",
+   "/CRD_AISpawner/AISpawnerPreviewerComponent",
+   "/CRD_AISpawner/Components/BP_AISpawnerDevice_NavPresenceComponent",
+   "/CRD_AISpawner/Device_AISpawner_Base",
+   "/CRD_AISpawner/Device_CharacterSpawner",
+   "/CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_CosmeticSpawn",
+   "/CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_GuardSpawn",
+   "/CRD_AISpawner/SpawnDefinitions/Modifiers/CharacterModifier_WildlifeSpawn",
+   "/CRD_ArmoredBattleBusSpawner/Device_ArmoredBattleBusSpawner",
+   "/CRD_ArmoredBattleBusSpawner/Device_ArmoredBattleBusSpawner_V2",
+   "/CRD_ArmoredTruckSpawner/Device_ArmoredTransportSpawner",
+   "/CRD_BallSpawner/Device_BallSpawner_V3",
+   "/CRD_CarryableItemSpawner/BP_Carryables/Abilities/GA_CarryableSpawner_HeldObject_Passive",
+   "/CRD_CarryableItemSpawner/BP_Carryables/Abilities/GA_CarryableSpawner_HeldObject_Place",
+   "/CRD_CarryableItemSpawner/BP_Carryables/Abilities/GA_CarryableSpawner_HeldObject_Throw"
+  ]
+ }
+}

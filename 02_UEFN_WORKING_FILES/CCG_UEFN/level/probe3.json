@@ -1,0 +1,19 @@
+{
+ "load_class": "/9ec1b72d-2111-4319-b015-282d94c768eb/_Verse.CCG-Verse-ccg_rail",
+ "load_class_err": "EditorActorSubsystem: Failed to convert parameter 'actor_class' when calling function 'EditorActorSubsystem.SpawnActorFromClass' on 'EditorActorSubsystem_0'\n  TypeError: NativizeProperty: Cannot nativize 'Class' as 'ActorClass' (ClassProperty)\n    TypeError: NativizeClass: Cannot nativize 'Class' as",
+ "place_err": "module 'unreal' has no attribute 'PlacementSubsystem'",
+ "wrapmaps": [
+  "/CRD_Accolades/VerseDeviceWrapperClassMap",
+  "/CRD_AIPatrolPath/VerseDeviceWrapperClassMap",
+  "/CRD_AISpawner/VerseDeviceWrapperClassMap",
+  "/CRD_Analytic/VerseDeviceWrapperClassMap",
+  "/CRD_AnimatedMesh/VerseDeviceWrapperClassMap"
+ ],
+ "gm_VerseClass": "ERR ScriptDevice: Failed to find property 'VerseClass' for attribute 'VerseClass' on",
+ "gm_verse_class": "ERR ScriptDevice: Failed to find property 'verse_class' for attribute 'verse_class' ",
+ "gm_Verse Class": "ERR ScriptDevice: Failed to find property 'Verse Class' for attribute 'Verse Class' ",
+ "gm_DeviceClass": "ERR ScriptDevice: Failed to find property 'DeviceClass' for attribute 'DeviceClass' ",
+ "gm_ClassToSpawn": "ERR ScriptDevice: Failed to find property 'ClassToSpawn' for attribute 'ClassToSpawn",
+ "gm_VerseDeviceClass": "ERR ScriptDevice: Failed to find property 'VerseDeviceClass' for attribute 'VerseDev",
+ "gm_fullname": "VerseDevice_C /9ec1b72d-2111-4319-b015-282d94c768eb/CabareteCurbGrind.CabareteCurbGrind:PersistentLevel.VerseDevice_C_UAID_BC38988AD19D8E1503_1571886304"
+}

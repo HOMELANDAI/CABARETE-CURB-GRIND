@@ -1,0 +1,42 @@
+{
+ "done": [
+  "MaterialExpressionMultiply_1.B <- gate",
+  "MaterialExpressionMultiply_2.B <- gate",
+  "deleted Multiply_7"
+ ],
+ "names": [
+  "MaterialExpressionCollectionParameter_0",
+  "MaterialExpressionComponentMask_0",
+  "MaterialExpressionConstant3Vector_0",
+  "MaterialExpressionConstant_0",
+  "MaterialExpressionConstant_1",
+  "MaterialExpressionConstant_2",
+  "MaterialExpressionConstant_3",
+  "MaterialExpressionConstant_4",
+  "MaterialExpressionConstant_5",
+  "MaterialExpressionDivide_0",
+  "MaterialExpressionLinearInterpolate_0",
+  "MaterialExpressionLinearInterpolate_1",
+  "MaterialExpressionLinearInterpolate_2",
+  "MaterialExpressionLinearInterpolate_3",
+  "MaterialExpressionMultiply_0",
+  "MaterialExpressionMultiply_1",
+  "MaterialExpressionMultiply_2",
+  "MaterialExpressionMultiply_3",
+  "MaterialExpressionMultiply_4",
+  "MaterialExpressionMultiply_5",
+  "MaterialExpressionMultiply_6",
+  "MaterialExpressionMultiply_7",
+  "MaterialExpressionSaturate_0",
+  "MaterialExpressionScalarParameter_0",
+  "MaterialExpressionScalarParameter_1",
+  "MaterialExpressionScalarParameter_2",
+  "MaterialExpressionSubtract_0",
+  "MaterialExpressionTextureCoordinate_0",
+  "MaterialExpressionTextureSampleParameter2D_0",
+  "MaterialExpressionTextureSampleParameter2D_1",
+  "MaterialExpressionTextureSampleParameter2D_2",
+  "MaterialExpressionTextureSampleParameter2D_3",
+  "MaterialExpressionWorldPosition_0"
+ ]
+}

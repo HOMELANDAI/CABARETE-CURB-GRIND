@@ -1,0 +1,206 @@
+{
+ "verts": {
+  "A": {
+   "n": 2364,
+   "zmin": -20,
+   "zmax": 994,
+   "below0": 26,
+   "p5": 52,
+   "p25": 833
+  },
+  "B": {
+   "n": 2410,
+   "zmin": -10,
+   "zmax": 963,
+   "below0": 5,
+   "p5": 89,
+   "p25": 733
+  },
+  "C": {
+   "n": 3838,
+   "zmin": -62,
+   "zmax": 467,
+   "below0": 537,
+   "p5": -40,
+   "p25": 43
+  }
+ },
+ "moved": [
+  [
+   "L_Palm_025",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_011",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_014",
+   -80,
+   "L_Park_P2_Multiplex"
+  ],
+  [
+   "L_Palm_024",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_026",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_P1_1",
+   0,
+   "L_Fill_001"
+  ],
+  [
+   "L_Palm_009",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_004",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_006",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_003",
+   -732,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_008",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_021",
+   -732,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_012",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_022",
+   -732,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_002",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_P3_2",
+   212,
+   "L_Park_P3_Mojito"
+  ],
+  [
+   "L_Palm_018",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_001",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_PalmWrap",
+   61,
+   "L_Sig_PalmWrap"
+  ],
+  [
+   "L_Palm_P4_2",
+   -874,
+   "L_Park_P4_Courtyard"
+  ],
+  [
+   "L_Palm_P3_1",
+   -186,
+   "L_Park_P3_Mojito"
+  ],
+  [
+   "L_Palm_015",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_013",
+   -500,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_P4_1",
+   -874,
+   "L_Park_P4_Courtyard"
+  ],
+  [
+   "L_Palm_020",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_017",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_010",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_016",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_005",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_P1_2",
+   -211,
+   "L_Road_Highway5"
+  ],
+  [
+   "L_Palm_023",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_000",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_007",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_019",
+   -334,
+   "L_Ground"
+  ],
+  [
+   "L_Palm_027",
+   -323,
+   "L_Ground"
+  ]
+ ],
+ "nohit": []
+}

@@ -1,0 +1,14 @@
+{
+ "rig": {},
+ "seq": {
+  "path": "/9ec1b72d-2111-4319-b015-282d94c768eb/CCG/Sequences/LS_CCG_Sunset",
+  "tracks": 28,
+  "bindings": 9,
+  "rate": "30",
+  "end": 180
+ },
+ "device": {},
+ "tod": {},
+ "err": [],
+ "warn": []
+}

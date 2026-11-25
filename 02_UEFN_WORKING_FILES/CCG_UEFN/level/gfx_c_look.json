@@ -1,0 +1,57 @@
+{
+ "lights": [
+  {
+   "sun_intensity": 6.0,
+   "rot": "<Struct 'Rotator' (0x000001D16CEA2810) {pitch: -62.000000, yaw: 150.000000, roll: -0.000000}>",
+   "vis": true,
+   "mob": "<ComponentMobility.MOVABLE: 2>"
+  }
+ ],
+ "tod_actors": [
+  [
+   "PP_CCG_Grade",
+   "PostProcessVolume",
+   false,
+   500.0
+  ],
+  [
+   "LR_Sun",
+   "DirectionalLight",
+   false,
+   400.0
+  ],
+  [
+   "LR_SkyAtmosphere",
+   "SkyAtmosphere",
+   false,
+   400.0
+  ],
+  [
+   "LR_SkyLight",
+   "SkyLight",
+   false,
+   400.0
+  ],
+  [
+   "LR_Fog",
+   "ExponentialHeightFog",
+   false,
+   0.0
+  ],
+  [
+   "FD_DaySeq_Day",
+   "BP_DaySequenceModifier_Device_C",
+   false,
+   106.0
+  ],
+  [
+   "FD_DaySeq_Sunset",
+   "BP_DaySequenceModifier_Device_C",
+   false,
+   106.0
+  ]
+ ],
+ "world": {
+  "bDisableAllTimeOfDayManagers": true
+ }
+}

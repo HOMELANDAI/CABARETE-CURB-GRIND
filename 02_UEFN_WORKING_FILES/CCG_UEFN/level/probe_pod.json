@@ -1,0 +1,22 @@
+{
+ "owner": "ToyOptionsComponent : ToyOptionsComponent_C",
+ "type": "PropertyOverrideData",
+ "export": "(PropertyOverrides=((PropertyName=\"ActivateOnPhase\",PropertyData=\"None\"),(PropertyName=\"BaseVisible\",PropertyData=\"True\"),(PropertyName=\"BrightnessScale\",PropertyData=\"0.500000\"),(PropertyName=\"Color\",PropertyData=\"Orange\"),(PropertyName=\"ColorChangeTime\",PropertyData=\"2.000000\"),(PropertyName=\"InitialState\",PropertyData=\"True\"),(PropertyName=\"InitialTeamColor\",PropertyData=\"(TeamType=None,TeamIndex=1)\"),(PropertyName=\"LabelOverride\",PropertyData=\"FD_LampLight_000\"),(PropertyName=\"ToggleOnSequencer\",PropertyData=\"False\"),(PropertyName=\"TurnOffInteractTime\"),(PropertyName=\"TurnOffTeam\",PropertyData=\"(TeamType=All,TeamIndex=1)\"),(PropertyName=\"TurnOnInteractTime\"),(PropertyName=\"TurnOnTeam\",PropertyData=\"(TeamType=All,TeamIndex=1)\")))",
+ "n_over": 13,
+ "e0_type": "PropertyOverrideMk2",
+ "e0_export": "(PropertyScope=\"\",PropertyName=\"ActivateOnPhase\",PropertyData=\"None\")",
+ "after": [
+  [
+   "BrightnessScale",
+   "0.500000"
+  ],
+  [
+   "Color",
+   "Blue"
+  ],
+  [
+   "InitialState",
+   "True"
+  ]
+ ]
+}
