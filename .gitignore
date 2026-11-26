@@ -28,3 +28,4 @@ Thumbs.db
 11_VIVERSE_WEB/build_cache/
 11_VIVERSE_WEB/assets/tex/
 11_VIVERSE_WEB/shots/
+__pycache__/
