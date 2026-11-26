@@ -108,19 +108,15 @@ with Cobalt Trail when the time comes.
 Files: `CCG_Deck_<Name>.glb` masters (20.9–24.4 MB), `raw\CCG_Deck_<Name>_tripo.glb`, `web\CCG_Deck_<Name>_web.glb`
 (1.4–1.7 MB, ~27 k tris, 2K WebP).
 
-UEFN: `uefn_decks_rain.py` is written (re-runnable, deletes `TD_RS_*`, imports the five GLBs as Nanite with the texture
-fixes, places them as a third display row on the back wall **right of the counter** — store-local forward −895 cm,
-right +330 ± 32 cm, 12° lean back, carved side to the shop floor — outliner folder `CCG/Store/RainSuit`, labels
-`TD_RS_Deck_<Name>`, writes `decks_rain_out.json`). **NOT yet run.** When the UEFN session was reopened to run it, the
-editor had already crashed with "Ran out of memory allocating 1 496 267 072 bytes — the paging file is too small", the
-Fortnite client showed an Application Hang dialog, Blender had stopped answering the bridge, and the PC then dropped off
-the bridge entirely. A copy of the one-line runner is in `C:\Users\211in\Downloads\ccg_r.py`
-(`exec(open(r"C:/Users/211in/Downloads/ccg_r.py").read())` in the UEFN Python bar) because `C:\Users\211in\r.py` could
-not be rewritten without Blender.
+UEFN (26 Nov): `uefn_decks_rain.py` run — five Nanite static meshes under `/CCG/Tripo/CCG_Deck_<Name>/` (normal → TC_NORMALMAP, rm →
+TC_MASKS), placed as the third display row on the back wall **right of the counter** (store-local forward −895 cm, right
++330 ± 32 cm, 12° lean back, carved side to the shop floor), outliner folder `CCG/Store/RainSuit`, labels
+`TD_RS_Deck_<Name>`, `decks_rain_out.json`: 5 placed, 0 errors. Checked in to Lore `main` ("v5c: five rain-suit…").
+Editor capture `05_IMAGES_AND_STILLS\store_rainrack_editor_2026-11-26.jpg`. The 20 Nov attempt had died with UEFN's
+"Ran out of memory allocating 1.4 GB" crash; this run went through with Blender open and ~2.7 GB free.
 
-Store stock after this push will be 20 Tripo decks (6 HAI + 9 Carved Nine + 5 rain-suit) out of the catalog's 95 rows.
+Store stock is now 20 Tripo decks (6 HAI + 9 Carved Nine + 5 rain-suit) out of the catalog's 95 rows.
 
-Still not done: run `uefn_decks_rain.py` and Push Changes (needs the PC back, Blender and the Fortnite client closed to
-free memory — consider raising the Windows paging file); Cobalt Trail and Stormburn Sunrise regenerations; the kaftan
+Still not done: a Launch Session so the live island carries the 20 decks (+ client captures of the three racks); Cobalt Trail and Stormburn Sunrise regenerations; the kaftan
 boards (no art); granters as prop pickups; in-game screenshot of the three racks; VIVERSE/Horizon placement of the 20
 web GLBs.

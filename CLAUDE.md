@@ -22,6 +22,7 @@ Skateboarding game set on Highway 5, Cabarete DR. Owner: HOME LAND (HomelandAI).
 
 ## UEFN conventions
 - Editor scripts run from the Python bar via `C:\Users\211in\r.py` = one `exec(open(r"F:/.../level/<script>.py").read())` line.
+- After any editor change: status bar → **Check In Changes** (submits to Lore `main`, the cloud project). Push Changes alone only updates a live session — that is how the cloud copy stayed a bare template until 26 Nov.
 - Scripts are re-runnable: delete their own label prefix first, write `<name>_out.json`, log a `CCG_*_DONE` marker.
 - Tripo meshes import as Nanite under `/CCG/Tripo/`; normal maps → TC_NORMALMAP, rm maps → TC_MASKS; 4K sources max.
 - After any level change: Validate Project → Push Changes → check the log for `pushed remote revision` and no `UEFNValidation: Error`.
