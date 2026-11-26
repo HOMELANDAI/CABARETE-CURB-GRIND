@@ -22,3 +22,9 @@
 *.blend1
 Thumbs.db
 .DS_Store
+
+# VIVERSE web build: generated/installed
+11_VIVERSE_WEB/node_modules/
+11_VIVERSE_WEB/build_cache/
+11_VIVERSE_WEB/assets/tex/
+11_VIVERSE_WEB/shots/

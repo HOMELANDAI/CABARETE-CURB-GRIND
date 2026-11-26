@@ -1,0 +1,28 @@
+<!doctype html><script type="importmap">{"imports":{"three":"/11_VIVERSE_WEB/node_modules/three/build/three.module.js","three/addons/":"/11_VIVERSE_WEB/node_modules/three/examples/jsm/"}}</script>
+<script type="module">
+// Converts the UEFN level FBX meshes (gen_level.py output) to GLB for the web build and reports bounds/materials.
+import * as THREE from 'three';
+import { FBXLoader } from 'three/addons/loaders/FBXLoader.js';
+import { GLTFExporter } from 'three/addons/exporters/GLTFExporter.js';
+const src = '/02_UEFN_WORKING_FILES/CCG_UEFN/level/meshes/'; const dst = '/11_VIVERSE_WEB/build_cache/level/';
+try {
+  const pl = await (await fetch('/02_UEFN_WORKING_FILES/CCG_UEFN/level/placements.json')).json();
+  const report = {};
+  for (const [name, m] of Object.entries(pl.meshes)) {
+    const obj = await new FBXLoader().loadAsync(src + m.file);
+    obj.updateMatrixWorld(true);
+    const box = new THREE.Box3().setFromObject(obj);
+    const mats = new Set(); let tris = 0, hasUV = true;
+    obj.traverse(o => { if (o.isMesh) {
+      (Array.isArray(o.material) ? o.material : [o.material]).forEach(x => mats.add(x.name));
+      tris += (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3;
+      if (!o.geometry.attributes.uv) hasUV = false; } });
+    report[name] = { min: box.min.toArray().map(v => +v.toFixed(1)), max: box.max.toArray().map(v => +v.toFixed(1)), mats: [...mats], tris, hasUV,
+      rootScale: obj.scale.toArray(), rootRot: obj.rotation.toArray().slice(0, 3), children: obj.children.map(c => [c.name, c.scale.toArray(), c.rotation.toArray().slice(0,3)]) };
+    const glb = await new GLTFExporter().parseAsync(obj, { binary: true });
+    await fetch(dst + name + '.glb', { method: 'POST', body: glb });
+  }
+  await fetch(dst + 'report.json', { method: 'POST', body: JSON.stringify(report, null, 1) });
+  document.title = 'DONE';
+} catch (e) { console.log(e.stack); document.title = 'FAIL ' + e.message; }
+</script>
