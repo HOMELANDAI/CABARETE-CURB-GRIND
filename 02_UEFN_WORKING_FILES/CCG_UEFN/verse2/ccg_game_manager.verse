@@ -49,6 +49,8 @@ ccg_player_state<public> := class:
     var CleanGrinds<public>:int = 0
     # Murals seen this run (ids from ccg_data.murals).
     var MuralsSeen<public>:[]string = array{}
+    # Sign Gap guard (26 Nov): last award time, so one pass pays once.
+    var LastSignGapAt<public>:float = -100.0
 
     HasSeenMural<public>(Id:string)<transacts>:logic =
         for (M : MuralsSeen, M = Id) { return true }
@@ -69,6 +71,8 @@ ccg_game_manager<public> := class(creative_device):
     # ----- Other volumes / triggers -----
     @editable StoreVolume : volume_device = volume_device{}
     @editable SignGapVolume : volume_device = volume_device{}
+    @editable SignGapGraceSeconds : float = 5.0
+    @editable SignGapCooldownSeconds : float = 3.0
     # Six mural volumes (ccg_data.murals, in data order: vicewave, clisante_rush, over_everything,
     # schnauzer_detectives, ppa_microdrama, paw_power_arena) hugging each wallride wall; counted in the results.
     @editable MuralVolumes : []volume_device = array{}
@@ -323,9 +327,17 @@ ccg_game_manager<public> := class(creative_device):
 
     # The Sign Gap volume sits between the two Cabarete Sign letter stacks ("Sign Twins"),
     # raised so only an airborne rider can clip it. Entering it = the gap was cleared.
+    # Fix 26 Nov: the phantom "COMBO x1 +1,500" on spawn was this award (SignGap = 1,500), not the trick
+    # input. The volume reached the spawn/ground, so walking in or spawning inside paid the gap. Now it only
+    # pays an airborne rider, never in the first SignGapGraceSeconds of the session, and once per pass.
     OnEnterSignGap(Agent:agent):void =
         if (Player := player[Agent]):
+            Now := GetSimulationElapsedTime()
+            if (Now < SignGapGraceSeconds) then return
+            if (C := Agent.GetFortCharacter[], C.IsOnGround[]) then return
             S := GetState(Player)
+            if (Now - S.LastSignGapAt < SignGapCooldownSeconds) then return
+            set S.LastSignGapAt = Now
             S.Combo.Add("signGap", ccg_scoring.SignGap)
             ShowHud(Agent, MsgSignGap(ccg_scoring.SignGap))
             Store.GrantEarned(Agent, "signgap")

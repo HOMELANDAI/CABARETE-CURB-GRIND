@@ -34,6 +34,8 @@ ccg_trick_input<public> := class(creative_device):
     @editable GrabHoldSeconds : float = 0.4
     @editable LateInputBailSeconds : float = 0.12
     @editable MinAirSeconds : float = 0.25
+    # Ignore jump/crouch/sprint events this long after a (re)spawn or a session refresh (teleports fire them).
+    @editable SpawnGuardSeconds : float = 1.5
 
     MsgControls<localizes>:message = "TRICKS — Jump: ollie · Crouch in air: kickflip · Sprint in air: heelflip · Crouch→Sprint: shove-it · Sprint→Crouch: tre flip · hold Crouch: grab · land clean!"
 
@@ -67,9 +69,14 @@ ccg_air_tracker := class:
     var FlipsThisAir:int = 0
     var LastInputTime:float = -10.0
     var TapSeq:int = 0
+    var BoundAt:float = -100.0
+
+    Guarded()<transacts>:logic =
+        if (GetSimulationElapsedTime() - BoundAt < Owner.SpawnGuardSeconds) then true else false
 
     Bind():void =
         if (C := Player.GetFortCharacter[]):
+            set BoundAt = GetSimulationElapsedTime()
             C.JumpedEvent().Subscribe(OnJumped)
             C.CrouchedEvent().Subscribe(OnCrouched)
             C.SprintedEvent().Subscribe(OnSprinted)
@@ -91,6 +98,7 @@ ccg_air_tracker := class:
 
     OnJumped(C:fort_character):void =
         if (InAir?) then return
+        if (Guarded()?) then return
         set InAir = true
         set AirStart = GetSimulationElapsedTime()
         set FlipsThisAir = 0
@@ -107,6 +115,7 @@ ccg_air_tracker := class:
         AirTime := Now - AirStart
         set InAir = false
         if (AirTime < Owner.MinAirSeconds) then return
+        if (Guarded()?) then return
         Manager.AwardTrick(Player, "ollie")
         if (FlipsThisAir > 0 and Now - LastInputTime < Owner.LateInputBailSeconds):
             Manager.Bail(Player)
@@ -118,6 +127,7 @@ ccg_air_tracker := class:
         Now := GetSimulationElapsedTime()
         if (Started?):
             if (not InAir?) then return
+            if (Guarded()?) then return
             set CrouchDownTime = Now
             set CrouchDownInAir = true
             Tap("crouch", Now)
@@ -134,6 +144,7 @@ ccg_air_tracker := class:
         Started := Args(1)
         if (not Started?) then return
         if (not InAir?) then return
+        if (Guarded()?) then return
         Tap("sprint", GetSimulationElapsedTime())
 
     Tap(Kind:string, Now:float):void =
